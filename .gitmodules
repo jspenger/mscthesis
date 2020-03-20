@@ -1,0 +1,3 @@
+[submodule "tamperproofbroadcast"]
+	path = tamperproofbroadcast
+	url = https://github.com/jonasspenger/tamperproofbroadcast
