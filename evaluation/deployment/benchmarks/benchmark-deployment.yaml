@@ -1,0 +1,33 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: broadcast
+spec:
+  backoffLimit: 1
+  # 9 pods scheduled concurrenctly
+  parallelism: 9
+  template:
+    metadata:
+      labels:
+        app: broadcast
+    spec:
+      nodeSelector:
+        nodetype: broadcast
+      restartPolicy: Never
+      volumes:
+      - name: google-cloud-key
+        secret:
+          secretName: pubsub-key
+      containers:
+      - name: broadcast
+        image: jonasspenger/tamperproofbroadcast
+        command: ["/bin/sh", "-c"]
+        args:
+        - echo running benchmark;
+          python3 tamperproofbroadcast/tamperproofbroadcast/benchmark.py --duration 60 --testid 12-etcd-$(hostname) --etcdhost etcd.default.svc.cluster.local --etcdport 2379;
+        volumeMounts:
+        - name: google-cloud-key
+          mountPath: /var/secrets/google
+        env:
+        - name: GOOGLE_APPLICATION_CREDENTIALS
+          value: /var/secrets/google/key.json

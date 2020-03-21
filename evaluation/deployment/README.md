@@ -8,12 +8,12 @@ The results are uploaded to a google cloud storage bucket, for which the correct
 - Machine type: n1-standard-1 (1 vCPU; 3.75 GB Memory; boot disk size: 100 GB)
 - 3 nodes for ETCD deployment with metadata `nodetype: etcd`
 - 3 nodes for MultiChain deployment with metadata `nodetype: multichain`
-- 15 nodes for benchmark (tamper-proof broadcast protocols) deployment with metadata `nodetype:tamperproofbroadcast`
+- 15 nodes for benchmark (tamper-proof broadcast protocols) deployment with metadata `nodetype: broadcast`
 
 ## Connect to GKE
 ```
-# connect to the cluster (replace XXX)
-gcloud container clusters get-credentials XXX --zone europe-west3-a --project XXX
+# connect to the cluster (replace XXX and YYY)
+gcloud container clusters get-credentials XXX --zone europe-west3-a --project YYY
 # for access to google cloud storage
 # https://cloud.google.com/kubernetes-engine/docs/tutorials/authenticating-to-cloud-platform
 kubectl create secret generic pubsub-key --from-file=key.json=PATH-TO-KEY-FILE.json
@@ -29,7 +29,7 @@ sh multichain/multichain-deployment.sh
 # deploy the benchmark (chose one of the suitable benchmarks)
 sh benchmarks/benchmark-deployment.sh
 # watch progress
-watch -n1 'kubectl get all;'
+watch -n5 'kubectl get all;'
 ```
 
 ## Delete kubernetes deployment
