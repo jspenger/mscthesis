@@ -24,7 +24,7 @@ spec:
         command: ["/bin/sh", "-c"]
         args:
         - echo running benchmark;
-          python3 tamperproofbroadcast/tamperproofbroadcast/benchmark.py --duration 60 --testid 12-etcd-$(hostname) --etcdhost etcd.default.svc.cluster.local --etcdport 2379;
+          python3 tamperproofbroadcast/tests/benchmarks/benchmark.py --duration 60 --testid 12-etcd-$(hostname) --etcdhost etcd.default.svc.cluster.local --etcdport 2379;
         volumeMounts:
         - name: google-cloud-key
           mountPath: /var/secrets/google
