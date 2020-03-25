@@ -14,7 +14,7 @@ spec:
         app: multichain
     spec:
       nodeSelector:
-        nodetype: multichain
+        multichainnodetype: multichain
       containers:
       - name: multichain
         image: alpine

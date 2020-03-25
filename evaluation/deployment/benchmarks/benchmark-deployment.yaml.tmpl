@@ -10,8 +10,8 @@ spec:
       labels:
         app: broadcast
     spec:
-      # nodeSelector:
-        # nodetype: broadcast
+      nodeSelector:
+        broadcastnodetype: broadcast
       restartPolicy: Never
       volumes:
       - name: google-cloud-key

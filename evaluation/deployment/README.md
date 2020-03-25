@@ -6,9 +6,9 @@ The results are uploaded to a google cloud storage bucket, for which the correct
 ## Cluster setup
 - Master zone: europe-west3, Node zones: europe-west3-a, europe-west3-b, and europe-west3-c
 - Machine type: n1-standard-1 (1 vCPU; 3.75 GB Memory; boot disk size: 100 GB)
-- 3 nodes for ETCD deployment with metadata `nodetype: etcd`
-- 3 nodes for MultiChain deployment with metadata `nodetype: multichain`
-- 15 nodes for benchmark (tamper-proof broadcast protocols) deployment with metadata `nodetype: broadcast`
+- 3 nodes for ETCD deployment with metadata etcdnodetype: etcd`
+- 3 nodes for MultiChain deployment with metadata multichainnodetype: multichain`
+- 15 nodes for benchmark (tamper-proof broadcast protocols) deployment with metadata broadcastnodetype: broadcast`
 
 ## Connect to GKE
 ```
@@ -17,6 +17,13 @@ gcloud container clusters get-credentials XXX --zone europe-west3-a --project YY
 # for access to google cloud storage
 # https://cloud.google.com/kubernetes-engine/docs/tutorials/authenticating-to-cloud-platform
 kubectl create secret generic pubsub-key --from-file=key.json=PATH-TO-KEY-FILE.json
+```
+
+Or, start a local kubernetes cluster and label the nodes appropriatly:
+```
+kubectl label nodes docker-desktop etcdnodetype=etcd
+kubectl label nodes docker-desktop multichainnodetype=multichain
+kubectl label nodes docker-desktop broadcastnodetype=broadcast
 ```
 
 ## Deploy to kubernetes
