@@ -1,0 +1,34 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: broadcast
+spec:
+  backoffLimit: 1
+  parallelism: ${N_REPLICAS}  # number of pods scheduled concurrenctly
+  template:
+    metadata:
+      labels:
+        app: broadcast
+    spec:
+      # nodeSelector:
+        # nodetype: broadcast
+      restartPolicy: Never
+      volumes:
+      - name: google-cloud-key
+        secret:
+          secretName: pubsub-key
+      containers:
+      - name: broadcast
+        image: jonasspenger/tamperproofbroadcast:latest
+        imagePullPolicy: Always
+        command: ["/bin/sh", "-c"]
+        args:
+        - echo running benchmark;
+          ${BENCHMARKCOMMAND}
+          echo finished benchmark;
+        volumeMounts:
+        - name: google-cloud-key
+          mountPath: /var/secrets/google
+        env:
+        - name: GOOGLE_APPLICATION_CREDENTIALS
+          value: /var/secrets/google/key.json

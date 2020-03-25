@@ -38,3 +38,29 @@ sh benchmarks/delete-benchmark-deployment.sh
 sh multichain/delete-multichain-deployment.sh
 sh etcd/delete-etcd-deployment.sh
 ```
+
+## Download data (either from pods or from GKE)
+```
+
+```
+
+## Other remarks
+Generate all benchmarks:
+```
+sh benchmarks/generate-benchmarks.sh;
+```
+
+Delete, generate and run benchmark:
+```
+sh benchmarks/tmp/fotb-3-delete-benchmark-deployment.sh  ; sh benchmarks/generate-benchmarks.sh; sh benchmarks/tmp/fotb-3-benchmark-deployment.sh;
+```
+
+Run interactive pod:
+```
+kubectl run podname -i --rm  --tty --image=jonasspenger/tamperproofbroadcast
+```
+
+Execute a command on a running pod (for example on multichain pod):
+```
+kubectl exec -it multichain-0 -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getinfo'
+```

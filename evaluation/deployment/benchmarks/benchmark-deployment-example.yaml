@@ -23,7 +23,7 @@ spec:
         command: ["/bin/sh", "-c"]
         args:
         - echo running benchmark;
-          python3 tamperproofbroadcast/tests/benchmarks/benchmark.py --duration 60 --testid 12-etcd-$(hostname) --etcdhost etcd.default.svc.cluster.local --etcdport 2379;
+          python3 tamperproofbroadcast/tests/benchmarks/benchmark.py --benchmark-duration=60 --benchmark-testid=3-htlltbtest-$(hostname) htlltbtest --etcd-host=etcd.default.svc.cluster.local --etcd-port=2379;
           echo finished benchmark;
         volumeMounts:
         - name: google-cloud-key
