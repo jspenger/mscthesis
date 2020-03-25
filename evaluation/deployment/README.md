@@ -27,21 +27,30 @@ kubectl label nodes docker-desktop broadcastnodetype=broadcast
 ```
 
 ## Deploy to kubernetes
+Deploy ETCD:
 ```
-# deploy etcd and wait for 2 minutes
 sh etcd/etcd-deployment.sh
-sleep 120
-# deploy multichain
+```
+
+Deploy MultiChain:
+```
 sh multichain/multichain-deployment.sh
-# deploy the benchmark (chose one of the suitable benchmarks)
-sh benchmarks/benchmark-deployment.sh
-# watch progress
+```
+
+Generate all benchmarks:
+```
+sh benchmarks/generate-benchmarks.sh;
+```
+
+Deploy one of the benchmarks and watch progress:
+```
+sh benchmarks/tmp/fotb-3-benchmark-deployment.sh
 watch -n5 'kubectl get all;'
 ```
 
 ## Delete kubernetes deployment
 ```
-sh benchmarks/delete-benchmark-deployment.sh
+sh benchmarks/tmp/fotb-3-delete-benchmark-deployment.sh
 sh multichain/delete-multichain-deployment.sh
 sh etcd/delete-etcd-deployment.sh
 ```

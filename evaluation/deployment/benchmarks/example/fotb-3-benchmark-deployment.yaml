@@ -4,14 +4,14 @@ metadata:
   name: broadcast
 spec:
   backoffLimit: 1
-  parallelism: 9  # 9 pods scheduled concurrenctly
+  parallelism: 3  # number of pods scheduled concurrenctly
   template:
     metadata:
       labels:
         app: broadcast
     spec:
       nodeSelector:
-        nodetype: broadcast
+        broadcastnodetype: broadcast
       restartPolicy: Never
       volumes:
       - name: google-cloud-key
@@ -19,11 +19,12 @@ spec:
           secretName: pubsub-key
       containers:
       - name: broadcast
-        image: jonasspenger/tamperproofbroadcast
+        image: jonasspenger/tamperproofbroadcast:latest
+        imagePullPolicy: Always
         command: ["/bin/sh", "-c"]
         args:
         - echo running benchmark;
-          python3 tamperproofbroadcast/tests/benchmarks/benchmark.py --benchmark-duration=60 --benchmark-testid=3-htlltbtest-$(hostname) htlltbtest --etcd-host=etcd.default.svc.cluster.local --etcd-port=2379;
+          MULTICHAINHOST=$(getent hosts multichain-headless | cut -d" " -f1); python3 tamperproofbroadcast/tests/benchmarks/benchmark.py --benchmark-duration=300 --benchmark-testid=fotb-3-$(hostname) fotb --multichain-host=$MULTICHAINHOST --multichain-port=7208 --multichain-chainname=chain@$MULTICHAINHOST --fotb-startheight=888;
           echo finished benchmark;
         volumeMounts:
         - name: google-cloud-key
