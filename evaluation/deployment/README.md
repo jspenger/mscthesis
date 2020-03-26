@@ -5,8 +5,8 @@ The results are uploaded to a google cloud storage bucket, for which the correct
 
 ## Cluster setup
 - Master zone: europe-west3, Node zones: europe-west3-a, europe-west3-b, and europe-west3-c
-- Machine type: n1-standard-1 (1 vCPU; 3.75 GB Memory; boot disk size: 100 GB)
-- 3 nodes for ETCD deployment with metadata etcdnodetype: etcd`
+- Machine type: n1-standard-2 (2 vCPU; 7.5 GB Memory; boot disk size: 100 GB, Network egress bandwidth 10 Gbps)
+- 6 nodes for ETCD deployment with metadata etcdnodetype: etcd`
 - 6 nodes for MultiChain deployment with metadata multichainnodetype: multichain`
 - 15 nodes for benchmark (tamper-proof broadcast protocols) deployment with metadata broadcastnodetype: broadcast`
 
