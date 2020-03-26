@@ -35,7 +35,7 @@ spec:
           mv multichaind multichain-cli multichain-util /usr/local/bin;
           echo ;
           echo connecting multichain blockchain;
-          if [[ "$(etcdctl --endpoints=etcd.default.svc.cluster.local:2379 put --prev-kv multichain started)" == "OK" ]];
+          if [[ "$(etcdctl --endpoints=multichainetcd.default.svc.cluster.local:2379 put --prev-kv multichain started)" == "OK" ]];
           then echo creating a new blockchain;
           multichain-util create chain -anyone-can-connect=true -anyone-can-send=true -anyone-can-receive=true -anyone-can-mine=true -target-block-time=10 -first-block-reward=1 -mining-turnover=1.0 -default-network-port=7209 -default-rpc-port=7208 -mine-empty-rounds=1000000000	-initial-block-reward=1000000000;
           echo running a new blockchain;

@@ -11,12 +11,8 @@ export DELETEDEPLOYMENTSCRIPT
 export BLOCKNUMBER
 
 # bootstrap multichain
-sh $SCRIPTPATH/etcd/etcd-deployment.sh
-sleep 180
 sh $SCRIPTPATH/multichain/multichain-deployment.sh
 sleep 300
-sh $SCRIPTPATH/etcd/delete-etcd-deployment.sh
-sleep 30
 
 for N_REPLICAS in 3 6 9 12
 do
@@ -43,7 +39,7 @@ do
   DEPLOYMENTYAML=totb-$N_REPLICAS-benchmark-deployment.yaml
   DEPLOYMENTSCRIPT=totb-$N_REPLICAS-benchmark-deployment.sh
   DELETEDEPLOYMENTSCRIPT=totb-$N_REPLICAS-delete-benchmark-deployment.sh
-  BLOCKNUMBER=$(kubectl exec -it multichain-0 -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getinfo' | jq '.blocks')
+  BLOCKNUMBER=$(kubectl exec -it statefulset/multichain -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getinfo' | tail -n +2 | jq '.blocks')
   BENCHMARKCOMMAND='MULTICHAINHOST=$(getent hosts multichain-headless | cut -d" " -f1); python3 tamperproofbroadcast/tests/benchmarks/benchmark.py --benchmark-bucketname=tpbexperiment --benchmark-duration=180 --benchmark-testid=totb-'$N_REPLICAS'-$(hostname) totb --multichain-host=$MULTICHAINHOST --multichain-port=7208 --multichain-chainname=chain@$MULTICHAINHOST --totb-startheight='$BLOCKNUMBER';'
   cat $SCRIPTPATH/benchmarks/benchmark-deployment.yaml.tmpl | envsubst > $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTYAML
   cat $SCRIPTPATH/benchmarks/benchmark-deployment.sh.tmpl | envsubst > $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTSCRIPT
