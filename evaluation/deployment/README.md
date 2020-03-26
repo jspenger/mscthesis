@@ -45,7 +45,17 @@ sh benchmarks/generate-benchmarks.sh;
 Deploy one of the benchmarks and watch progress:
 ```
 sh benchmarks/tmp/fotb-3-benchmark-deployment.sh
-watch -n5 'kubectl get all;'
+```
+
+Watch progress:
+```
+watch 'kubectl get all;'
+watch 'kubectl logs --tail=10 broadcast-XXX;'
+```
+
+Save all logs to file:
+```
+sh benchmark/print-logs.sh > YYY.log
 ```
 
 ## Delete kubernetes deployment
