@@ -18,7 +18,7 @@ do
     sleep 60
 
     sh $DEPLOYMENTSCRIPT
-    sleep 300
+    sleep 420
     sh $SCRIPTPATH/benchmarks/print-logs.sh > $SCRIPTPATH/$TEST.log
     sh $DELETEDEPLOYMENTSCRIPT
     sleep 30
