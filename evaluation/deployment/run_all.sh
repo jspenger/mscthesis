@@ -2,6 +2,15 @@ SCRIPTPATH=$(dirname "$0")
 
 sh $SCRIPTPATH/benchmarks/generate-benchmarks.sh
 
+sh $SCRIPTPATH/etcd/etcd-deployment.sh
+sleep 180
+
+sh $SCRIPTPATH/multichain/multichain-deployment.sh
+sleep 360
+
+sh $SCRIPTPATH/etcd/delete-etcd-deployment.sh
+sleep 30
+
 for N_REPLICAS in 3 6 9 12
 do
   for PROTOCOL in fotb totb htlltb htlltbtest
@@ -14,18 +23,16 @@ do
     sh $SCRIPTPATH/etcd/etcd-deployment.sh
     sleep 180
 
-    sh $SCRIPTPATH/multichain/multichain-deployment.sh
-    sleep 60
-
     sh $DEPLOYMENTSCRIPT
     sleep 420
-    sh $SCRIPTPATH/benchmarks/print-logs.sh > $SCRIPTPATH/$TEST.log
+    sh $SCRIPTPATH/benchmarks/print-logs.sh 2>&1 | tee $SCRIPTPATH/$TEST.log
     sh $DELETEDEPLOYMENTSCRIPT
     sleep 30
 
-    sh $SCRIPTPATH/multichain/delete-multichain-deployment.sh
-    sleep 30
     sh $SCRIPTPATH/etcd/delete-etcd-deployment.sh
     sleep 30
   done
 done
+
+sh $SCRIPTPATH/multichain/delete-multichain-deployment.sh
+sleep 30

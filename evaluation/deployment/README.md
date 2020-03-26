@@ -26,6 +26,11 @@ kubectl label nodes docker-desktop multichainnodetype=multichain
 kubectl label nodes docker-desktop broadcastnodetype=broadcast
 ```
 
+## Script to run all benchmarks
+```
+sh run_all.sh 2>&1 | tee run.log
+```
+
 ## Deploy to kubernetes
 Deploy ETCD:
 ```
@@ -51,6 +56,7 @@ Watch progress:
 ```
 watch 'kubectl get all;'
 watch 'kubectl logs --tail=10 broadcast-XXX;'
+watch kubectl logs --tail=10 jobs/broadcast;
 ```
 
 Save all logs to file:
