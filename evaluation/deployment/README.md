@@ -7,7 +7,7 @@ The results are uploaded to a google cloud storage bucket, for which the correct
 - Master zone: europe-west3, Node zones: europe-west3-a, europe-west3-b, and europe-west3-c
 - Machine type: n1-standard-1 (1 vCPU; 3.75 GB Memory; boot disk size: 100 GB)
 - 3 nodes for ETCD deployment with metadata etcdnodetype: etcd`
-- 3 nodes for MultiChain deployment with metadata multichainnodetype: multichain`
+- 6 nodes for MultiChain deployment with metadata multichainnodetype: multichain`
 - 15 nodes for benchmark (tamper-proof broadcast protocols) deployment with metadata broadcastnodetype: broadcast`
 
 ## Connect to GKE
