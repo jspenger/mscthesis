@@ -1,0 +1,1537 @@
+broadcast-48f5q
+running benchmark
+2020-03-27 10:10:28,690 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=V9Waw2bGEQV6iF1fYM5iSUKxjkCSmwJhhnnD883FYNr7rSNKfdmSh1ub pubkey=1WbsJPq1yKYtwAohhz1wMHd5qQPTeAtn5QyxC8 prevtxhash=368d179a02885e46ee2997e428e9d3ab61d7e93608b8c96ab0e03e95fc059371
+2020-03-27 10:10:28,700 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,047 - INFO - benchmark.py - root - _start() - 31 - 1647 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:40,038 - INFO - benchmark.py - root - _start() - 31 - 3363 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:46,343 - INFO - benchmark.py - root - _start() - 31 - 5046 broadcast messages and 0 delivered messages after 17 seconds
+2020-03-27 10:10:52,116 - INFO - benchmark.py - root - _start() - 31 - 6465 broadcast messages and 5544 delivered messages after 23 seconds
+2020-03-27 10:10:58,068 - INFO - benchmark.py - root - _start() - 31 - 8049 broadcast messages and 11876 delivered messages after 29 seconds
+2020-03-27 10:11:04,100 - INFO - benchmark.py - root - _start() - 31 - 9666 broadcast messages and 18212 delivered messages after 35 seconds
+2020-03-27 10:11:10,064 - INFO - benchmark.py - root - _start() - 31 - 11250 broadcast messages and 24548 delivered messages after 41 seconds
+2020-03-27 10:11:16,046 - INFO - benchmark.py - root - _start() - 31 - 12834 broadcast messages and 30327 delivered messages after 47 seconds
+2020-03-27 10:11:22,079 - INFO - benchmark.py - root - _start() - 31 - 14385 broadcast messages and 35537 delivered messages after 53 seconds
+2020-03-27 10:11:28,022 - INFO - benchmark.py - root - _start() - 31 - 15936 broadcast messages and 41382 delivered messages after 59 seconds
+2020-03-27 10:11:34,021 - INFO - benchmark.py - root - _start() - 31 - 17520 broadcast messages and 47710 delivered messages after 65 seconds
+2020-03-27 10:11:40,102 - INFO - benchmark.py - root - _start() - 31 - 19137 broadcast messages and 54182 delivered messages after 71 seconds
+2020-03-27 10:11:46,096 - INFO - benchmark.py - root - _start() - 31 - 20622 broadcast messages and 59755 delivered messages after 77 seconds
+2020-03-27 10:11:52,043 - INFO - benchmark.py - root - _start() - 31 - 22206 broadcast messages and 66095 delivered messages after 83 seconds
+2020-03-27 10:11:58,113 - INFO - benchmark.py - root - _start() - 31 - 23724 broadcast messages and 72167 delivered messages after 89 seconds
+2020-03-27 10:12:04,001 - INFO - benchmark.py - root - _start() - 31 - 25308 broadcast messages and 77979 delivered messages after 95 seconds
+2020-03-27 10:12:10,005 - INFO - benchmark.py - root - _start() - 31 - 26760 broadcast messages and 82661 delivered messages after 101 seconds
+2020-03-27 10:12:16,092 - INFO - benchmark.py - root - _start() - 31 - 28344 broadcast messages and 89001 delivered messages after 107 seconds
+2020-03-27 10:12:22,111 - INFO - benchmark.py - root - _start() - 31 - 29895 broadcast messages and 94871 delivered messages after 113 seconds
+2020-03-27 10:12:28,007 - INFO - benchmark.py - root - _start() - 31 - 31380 broadcast messages and 100779 delivered messages after 119 seconds
+2020-03-27 10:12:34,067 - INFO - benchmark.py - root - _start() - 31 - 32997 broadcast messages and 107242 delivered messages after 125 seconds
+2020-03-27 10:12:40,046 - INFO - benchmark.py - root - _start() - 31 - 34515 broadcast messages and 112955 delivered messages after 131 seconds
+2020-03-27 10:12:46,067 - INFO - benchmark.py - root - _start() - 31 - 36066 broadcast messages and 119097 delivered messages after 137 seconds
+2020-03-27 10:12:52,099 - INFO - benchmark.py - root - _start() - 31 - 37650 broadcast messages and 125367 delivered messages after 143 seconds
+2020-03-27 10:12:58,000 - INFO - benchmark.py - root - _start() - 31 - 39171 broadcast messages and 131010 delivered messages after 149 seconds
+2020-03-27 10:13:04,046 - INFO - benchmark.py - root - _start() - 31 - 40752 broadcast messages and 137309 delivered messages after 155 seconds
+2020-03-27 10:13:10,012 - INFO - benchmark.py - root - _start() - 31 - 42336 broadcast messages and 143575 delivered messages after 161 seconds
+2020-03-27 10:13:16,056 - INFO - benchmark.py - root - _start() - 31 - 43887 broadcast messages and 149684 delivered messages after 167 seconds
+2020-03-27 10:13:22,036 - INFO - benchmark.py - root - _start() - 31 - 45438 broadcast messages and 155558 delivered messages after 173 seconds
+2020-03-27 10:13:28,047 - INFO - benchmark.py - root - _start() - 31 - 47022 broadcast messages and 161828 delivered messages after 179 seconds
+2020-03-27 10:13:28,803 - INFO - benchmark.py - root - _start() - 70 - 47220 broadcast messages and 162620 delivered messages after 180 seconds
+2020-03-27 10:13:28,806 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,808 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:29,115 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-6bw5h
+running benchmark
+2020-03-27 10:10:28,613 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=V7D8xeoMCTXiNr4oPEeAHxGwfPuzKHzBzcg4JKRUXLhcsAPtQVhUhPeg pubkey=1UpioPqSytRN5inNQKbk4pL6wbzEsqusxBcqt4 prevtxhash=136d8948d430bf1bddc29a4c1aeb506e3b177932edc09fa210a4425a2d661bd0
+2020-03-27 10:10:28,623 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,108 - INFO - benchmark.py - root - _start() - 31 - 1680 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:40,069 - INFO - benchmark.py - root - _start() - 31 - 3363 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:46,081 - INFO - benchmark.py - root - _start() - 31 - 4881 broadcast messages and 5907 delivered messages after 17 seconds
+2020-03-27 10:10:52,065 - INFO - benchmark.py - root - _start() - 31 - 6531 broadcast messages and 9603 delivered messages after 23 seconds
+2020-03-27 10:10:58,024 - INFO - benchmark.py - root - _start() - 31 - 8082 broadcast messages and 12664 delivered messages after 29 seconds
+2020-03-27 10:11:04,039 - INFO - benchmark.py - root - _start() - 31 - 9666 broadcast messages and 19004 delivered messages after 35 seconds
+2020-03-27 10:11:10,080 - INFO - benchmark.py - root - _start() - 31 - 11250 broadcast messages and 23958 delivered messages after 41 seconds
+2020-03-27 10:11:16,000 - INFO - benchmark.py - root - _start() - 31 - 12829 broadcast messages and 28842 delivered messages after 47 seconds
+2020-03-27 10:11:22,056 - INFO - benchmark.py - root - _start() - 31 - 14385 broadcast messages and 35158 delivered messages after 53 seconds
+2020-03-27 10:11:28,123 - INFO - benchmark.py - root - _start() - 31 - 15969 broadcast messages and 40227 delivered messages after 59 seconds
+2020-03-27 10:11:34,035 - INFO - benchmark.py - root - _start() - 31 - 17619 broadcast messages and 41811 delivered messages after 65 seconds
+2020-03-27 10:11:40,092 - INFO - benchmark.py - root - _start() - 31 - 19170 broadcast messages and 47124 delivered messages after 71 seconds
+2020-03-27 10:11:46,047 - INFO - benchmark.py - root - _start() - 31 - 20754 broadcast messages and 52569 delivered messages after 77 seconds
+2020-03-27 10:11:52,095 - INFO - benchmark.py - root - _start() - 31 - 22371 broadcast messages and 57684 delivered messages after 83 seconds
+2020-03-27 10:11:58,095 - INFO - benchmark.py - root - _start() - 31 - 23922 broadcast messages and 63480 delivered messages after 89 seconds
+2020-03-27 10:12:04,050 - INFO - benchmark.py - root - _start() - 31 - 25572 broadcast messages and 65637 delivered messages after 95 seconds
+2020-03-27 10:12:10,014 - INFO - benchmark.py - root - _start() - 31 - 27090 broadcast messages and 69100 delivered messages after 101 seconds
+2020-03-27 10:12:16,119 - INFO - benchmark.py - root - _start() - 31 - 28707 broadcast messages and 75570 delivered messages after 107 seconds
+2020-03-27 10:12:22,124 - INFO - benchmark.py - root - _start() - 31 - 30258 broadcast messages and 80512 delivered messages after 113 seconds
+2020-03-27 10:12:28,028 - INFO - benchmark.py - root - _start() - 31 - 31809 broadcast messages and 86592 delivered messages after 119 seconds
+2020-03-27 10:12:34,071 - INFO - benchmark.py - root - _start() - 31 - 33426 broadcast messages and 90981 delivered messages after 125 seconds
+2020-03-27 10:12:40,069 - INFO - benchmark.py - root - _start() - 31 - 34977 broadcast messages and 95733 delivered messages after 131 seconds
+2020-03-27 10:12:46,011 - INFO - benchmark.py - root - _start() - 31 - 36528 broadcast messages and 100646 delivered messages after 137 seconds
+2020-03-27 10:12:52,053 - INFO - benchmark.py - root - _start() - 31 - 38112 broadcast messages and 106982 delivered messages after 143 seconds
+2020-03-27 10:12:58,032 - INFO - benchmark.py - root - _start() - 31 - 39696 broadcast messages and 112035 delivered messages after 149 seconds
+2020-03-27 10:13:04,110 - INFO - benchmark.py - root - _start() - 31 - 41412 broadcast messages and 112068 delivered messages after 155 seconds
+2020-03-27 10:13:10,064 - INFO - benchmark.py - root - _start() - 31 - 42897 broadcast messages and 117736 delivered messages after 161 seconds
+2020-03-27 10:13:16,159 - INFO - benchmark.py - root - _start() - 31 - 44481 broadcast messages and 122859 delivered messages after 167 seconds
+2020-03-27 10:13:22,066 - INFO - benchmark.py - root - _start() - 31 - 46032 broadcast messages and 129059 delivered messages after 173 seconds
+2020-03-27 10:13:28,037 - INFO - benchmark.py - root - _start() - 31 - 47583 broadcast messages and 132788 delivered messages after 179 seconds
+2020-03-27 10:13:28,655 - INFO - benchmark.py - root - _start() - 70 - 47748 broadcast messages and 133448 delivered messages after 180 seconds
+2020-03-27 10:13:28,658 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,658 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:29,002 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-c2gbq
+running benchmark
+2020-03-27 10:10:29,097 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=V7cDDeY9qpEPKiR92dxhiUyrpEZUpp1ApB9ugQVXsg25FTWprwJFCo37 pubkey=1VBPkaqiBBertGoHp6c5qE3rgBRvQ7szr7f7VM prevtxhash=88d74dd43763a085ef2d2e6c918ce6605759542b147b5c53946d9ba23ee29d6f
+2020-03-27 10:10:29,115 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:35,009 - INFO - benchmark.py - root - _start() - 31 - 1779 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:41,035 - INFO - benchmark.py - root - _start() - 31 - 3462 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:47,021 - INFO - benchmark.py - root - _start() - 31 - 4947 broadcast messages and 0 delivered messages after 17 seconds
+2020-03-27 10:10:53,026 - INFO - benchmark.py - root - _start() - 31 - 6399 broadcast messages and 5676 delivered messages after 23 seconds
+2020-03-27 10:10:59,056 - INFO - benchmark.py - root - _start() - 31 - 7950 broadcast messages and 11872 delivered messages after 29 seconds
+2020-03-27 10:11:05,028 - INFO - benchmark.py - root - _start() - 31 - 9468 broadcast messages and 17944 delivered messages after 35 seconds
+2020-03-27 10:11:11,045 - INFO - benchmark.py - root - _start() - 31 - 11019 broadcast messages and 24156 delivered messages after 41 seconds
+2020-03-27 10:11:17,052 - INFO - benchmark.py - root - _start() - 31 - 12504 broadcast messages and 29989 delivered messages after 47 seconds
+2020-03-27 10:11:23,000 - INFO - benchmark.py - root - _start() - 31 - 14038 broadcast messages and 34683 delivered messages after 53 seconds
+2020-03-27 10:11:29,005 - INFO - benchmark.py - root - _start() - 31 - 15507 broadcast messages and 40281 delivered messages after 59 seconds
+2020-03-27 10:11:35,089 - INFO - benchmark.py - root - _start() - 31 - 17091 broadcast messages and 46526 delivered messages after 65 seconds
+2020-03-27 10:11:41,005 - INFO - benchmark.py - root - _start() - 31 - 18609 broadcast messages and 52590 delivered messages after 71 seconds
+2020-03-27 10:11:47,112 - INFO - benchmark.py - root - _start() - 31 - 20061 broadcast messages and 58039 delivered messages after 77 seconds
+2020-03-27 10:11:53,031 - INFO - benchmark.py - root - _start() - 31 - 21579 broadcast messages and 64107 delivered messages after 83 seconds
+2020-03-27 10:11:59,105 - INFO - benchmark.py - root - _start() - 31 - 23064 broadcast messages and 70047 delivered messages after 89 seconds
+2020-03-27 10:12:05,209 - INFO - benchmark.py - root - _start() - 31 - 24549 broadcast messages and 75764 delivered messages after 96 seconds
+2020-03-27 10:12:11,084 - INFO - benchmark.py - root - _start() - 31 - 26001 broadcast messages and 80090 delivered messages after 101 seconds
+2020-03-27 10:12:17,082 - INFO - benchmark.py - root - _start() - 31 - 27486 broadcast messages and 86031 delivered messages after 107 seconds
+2020-03-27 10:12:23,037 - INFO - benchmark.py - root - _start() - 31 - 28971 broadcast messages and 91868 delivered messages after 113 seconds
+2020-03-27 10:12:29,042 - INFO - benchmark.py - root - _start() - 31 - 30456 broadcast messages and 97515 delivered messages after 119 seconds
+2020-03-27 10:12:35,008 - INFO - benchmark.py - root - _start() - 31 - 31974 broadcast messages and 103513 delivered messages after 125 seconds
+2020-03-27 10:12:41,057 - INFO - benchmark.py - root - _start() - 31 - 33492 broadcast messages and 109593 delivered messages after 131 seconds
+2020-03-27 10:12:47,121 - INFO - benchmark.py - root - _start() - 31 - 34977 broadcast messages and 115203 delivered messages after 138 seconds
+2020-03-27 10:12:53,028 - INFO - benchmark.py - root - _start() - 31 - 36462 broadcast messages and 120999 delivered messages after 143 seconds
+2020-03-27 10:12:59,094 - INFO - benchmark.py - root - _start() - 31 - 37980 broadcast messages and 127017 delivered messages after 149 seconds
+2020-03-27 10:13:05,048 - INFO - benchmark.py - root - _start() - 31 - 39432 broadcast messages and 132450 delivered messages after 155 seconds
+2020-03-27 10:13:11,079 - INFO - benchmark.py - root - _start() - 31 - 40983 broadcast messages and 138662 delivered messages after 161 seconds
+2020-03-27 10:13:17,042 - INFO - benchmark.py - root - _start() - 31 - 42435 broadcast messages and 144342 delivered messages after 167 seconds
+2020-03-27 10:13:23,023 - INFO - benchmark.py - root - _start() - 31 - 43953 broadcast messages and 150410 delivered messages after 173 seconds
+2020-03-27 10:13:29,082 - INFO - benchmark.py - root - _start() - 31 - 45438 broadcast messages and 156082 delivered messages after 179 seconds
+2020-03-27 10:13:29,212 - INFO - benchmark.py - root - _start() - 70 - 45471 broadcast messages and 156210 delivered messages after 180 seconds
+2020-03-27 10:13:29,212 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:29,212 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:29,570 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-cbhf4
+running benchmark
+2020-03-27 10:10:28,563 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=VEhyZvVLkXGiSFf1SDHdTC55Kha9zqBG3RPbFtiDsJbggeurZ5cvNRzU pubkey=1BPjBBV47zcqZscQaiL1FGChYiAjK7DCHnh88Q prevtxhash=97364f116dfc3ff996e8f8f917fb6ee1b217448a273711fd69f3fe9c684f5cf0
+2020-03-27 10:10:28,573 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,076 - INFO - benchmark.py - root - _start() - 31 - 1680 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:40,114 - INFO - benchmark.py - root - _start() - 31 - 3363 broadcast messages and 1448 delivered messages after 11 seconds
+2020-03-27 10:10:46,049 - INFO - benchmark.py - root - _start() - 31 - 5013 broadcast messages and 2838 delivered messages after 17 seconds
+2020-03-27 10:10:52,049 - INFO - benchmark.py - root - _start() - 31 - 6696 broadcast messages and 3366 delivered messages after 23 seconds
+2020-03-27 10:10:58,095 - INFO - benchmark.py - root - _start() - 31 - 8346 broadcast messages and 6534 delivered messages after 29 seconds
+2020-03-27 10:11:04,032 - INFO - benchmark.py - root - _start() - 31 - 10029 broadcast messages and 6534 delivered messages after 35 seconds
+2020-03-27 10:11:10,083 - INFO - benchmark.py - root - _start() - 31 - 11745 broadcast messages and 6534 delivered messages after 41 seconds
+2020-03-27 10:11:16,050 - INFO - benchmark.py - root - _start() - 31 - 13329 broadcast messages and 11550 delivered messages after 47 seconds
+2020-03-27 10:11:22,047 - INFO - benchmark.py - root - _start() - 31 - 14979 broadcast messages and 13621 delivered messages after 53 seconds
+2020-03-27 10:11:28,015 - INFO - benchmark.py - root - _start() - 31 - 16629 broadcast messages and 15081 delivered messages after 59 seconds
+2020-03-27 10:11:34,071 - INFO - benchmark.py - root - _start() - 31 - 18345 broadcast messages and 15081 delivered messages after 65 seconds
+2020-03-27 10:11:40,016 - INFO - benchmark.py - root - _start() - 31 - 20028 broadcast messages and 15081 delivered messages after 71 seconds
+2020-03-27 10:11:46,008 - INFO - benchmark.py - root - _start() - 31 - 21678 broadcast messages and 17519 delivered messages after 77 seconds
+2020-03-27 10:11:52,018 - INFO - benchmark.py - root - _start() - 31 - 23295 broadcast messages and 22176 delivered messages after 83 seconds
+2020-03-27 10:11:58,104 - INFO - benchmark.py - root - _start() - 31 - 24978 broadcast messages and 24024 delivered messages after 89 seconds
+2020-03-27 10:12:04,025 - INFO - benchmark.py - root - _start() - 31 - 26661 broadcast messages and 24024 delivered messages after 95 seconds
+2020-03-27 10:12:10,027 - INFO - benchmark.py - root - _start() - 31 - 28311 broadcast messages and 25670 delivered messages after 101 seconds
+2020-03-27 10:12:16,103 - INFO - benchmark.py - root - _start() - 31 - 29994 broadcast messages and 27720 delivered messages after 107 seconds
+2020-03-27 10:12:22,035 - INFO - benchmark.py - root - _start() - 31 - 31611 broadcast messages and 30459 delivered messages after 113 seconds
+2020-03-27 10:12:28,116 - INFO - benchmark.py - root - _start() - 31 - 33327 broadcast messages and 30459 delivered messages after 119 seconds
+2020-03-27 10:12:34,050 - INFO - benchmark.py - root - _start() - 31 - 34944 broadcast messages and 33825 delivered messages after 125 seconds
+2020-03-27 10:12:40,001 - INFO - benchmark.py - root - _start() - 31 - 36631 broadcast messages and 33825 delivered messages after 131 seconds
+2020-03-27 10:12:46,012 - INFO - benchmark.py - root - _start() - 31 - 38277 broadcast messages and 36597 delivered messages after 137 seconds
+2020-03-27 10:12:52,047 - INFO - benchmark.py - root - _start() - 31 - 39993 broadcast messages and 36597 delivered messages after 143 seconds
+2020-03-27 10:12:58,035 - INFO - benchmark.py - root - _start() - 31 - 41610 broadcast messages and 39996 delivered messages after 149 seconds
+2020-03-27 10:13:04,109 - INFO - benchmark.py - root - _start() - 31 - 43293 broadcast messages and 42108 delivered messages after 155 seconds
+2020-03-27 10:13:10,068 - INFO - benchmark.py - root - _start() - 31 - 44976 broadcast messages and 42108 delivered messages after 161 seconds
+2020-03-27 10:13:16,081 - INFO - benchmark.py - root - _start() - 31 - 46626 broadcast messages and 43944 delivered messages after 167 seconds
+2020-03-27 10:13:22,098 - INFO - benchmark.py - root - _start() - 31 - 48276 broadcast messages and 46398 delivered messages after 173 seconds
+2020-03-27 10:13:28,082 - INFO - benchmark.py - root - _start() - 31 - 49959 broadcast messages and 46398 delivered messages after 179 seconds
+2020-03-27 10:13:28,665 - INFO - benchmark.py - root - _start() - 70 - 50124 broadcast messages and 46398 delivered messages after 180 seconds
+2020-03-27 10:13:28,665 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,665 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:28,951 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-ddsgq
+running benchmark
+2020-03-27 10:10:28,557 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=VEiRL3HN1uJUvshed9p2TYkUpG3i5nqE9TAfq4LXHqUE82oMEysNez3k pubkey=18GVMuGQy2xxfkfqKsQ7Rfd2s4GNV4PMD69imD prevtxhash=07a9b0072b58eb6e8870532c0875e2163bd4751e9a131811ee514307fd6b4cb9
+2020-03-27 10:10:28,567 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,040 - INFO - benchmark.py - root - _start() - 31 - 1647 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:40,025 - INFO - benchmark.py - root - _start() - 31 - 3297 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:46,961 - INFO - benchmark.py - root - _start() - 31 - 4749 broadcast messages and 0 delivered messages after 18 seconds
+2020-03-27 10:10:52,058 - INFO - benchmark.py - root - _start() - 31 - 5937 broadcast messages and 4154 delivered messages after 23 seconds
+2020-03-27 10:10:58,011 - INFO - benchmark.py - root - _start() - 31 - 7488 broadcast messages and 10358 delivered messages after 29 seconds
+2020-03-27 10:11:04,055 - INFO - benchmark.py - root - _start() - 31 - 9039 broadcast messages and 16533 delivered messages after 35 seconds
+2020-03-27 10:11:10,000 - INFO - benchmark.py - root - _start() - 31 - 10590 broadcast messages and 22725 delivered messages after 41 seconds
+2020-03-27 10:11:16,051 - INFO - benchmark.py - root - _start() - 31 - 12141 broadcast messages and 28941 delivered messages after 47 seconds
+2020-03-27 10:11:22,038 - INFO - benchmark.py - root - _start() - 31 - 13593 broadcast messages and 33128 delivered messages after 53 seconds
+2020-03-27 10:11:28,005 - INFO - benchmark.py - root - _start() - 31 - 15111 broadcast messages and 39035 delivered messages after 59 seconds
+2020-03-27 10:11:34,061 - INFO - benchmark.py - root - _start() - 31 - 16596 broadcast messages and 44381 delivered messages after 65 seconds
+2020-03-27 10:11:40,049 - INFO - benchmark.py - root - _start() - 31 - 18147 broadcast messages and 50585 delivered messages after 71 seconds
+2020-03-27 10:11:46,120 - INFO - benchmark.py - root - _start() - 31 - 19566 broadcast messages and 55803 delivered messages after 77 seconds
+2020-03-27 10:11:52,031 - INFO - benchmark.py - root - _start() - 31 - 21084 broadcast messages and 61591 delivered messages after 83 seconds
+2020-03-27 10:11:58,011 - INFO - benchmark.py - root - _start() - 31 - 22635 broadcast messages and 67514 delivered messages after 89 seconds
+2020-03-27 10:12:04,052 - INFO - benchmark.py - root - _start() - 31 - 24219 broadcast messages and 73652 delivered messages after 95 seconds
+2020-03-27 10:12:10,120 - INFO - benchmark.py - root - _start() - 31 - 25638 broadcast messages and 77979 delivered messages after 101 seconds
+2020-03-27 10:12:16,123 - INFO - benchmark.py - root - _start() - 31 - 27057 broadcast messages and 83189 delivered messages after 107 seconds
+2020-03-27 10:12:22,078 - INFO - benchmark.py - root - _start() - 31 - 28608 broadcast messages and 89389 delivered messages after 113 seconds
+2020-03-27 10:12:28,110 - INFO - benchmark.py - root - _start() - 31 - 29994 broadcast messages and 94475 delivered messages after 119 seconds
+2020-03-27 10:12:34,059 - INFO - benchmark.py - root - _start() - 31 - 31545 broadcast messages and 100683 delivered messages after 125 seconds
+2020-03-27 10:12:40,097 - INFO - benchmark.py - root - _start() - 31 - 33096 broadcast messages and 106652 delivered messages after 131 seconds
+2020-03-27 10:12:46,084 - INFO - benchmark.py - root - _start() - 31 - 34482 broadcast messages and 111767 delivered messages after 137 seconds
+2020-03-27 10:12:52,082 - INFO - benchmark.py - root - _start() - 31 - 36033 broadcast messages and 117905 delivered messages after 143 seconds
+2020-03-27 10:12:58,114 - INFO - benchmark.py - root - _start() - 31 - 37551 broadcast messages and 123911 delivered messages after 149 seconds
+2020-03-27 10:13:04,091 - INFO - benchmark.py - root - _start() - 31 - 38937 broadcast messages and 128766 delivered messages after 155 seconds
+2020-03-27 10:13:10,013 - INFO - benchmark.py - root - _start() - 31 - 40455 broadcast messages and 134834 delivered messages after 161 seconds
+2020-03-27 10:13:16,111 - INFO - benchmark.py - root - _start() - 31 - 42006 broadcast messages and 141042 delivered messages after 167 seconds
+2020-03-27 10:13:22,003 - INFO - benchmark.py - root - _start() - 31 - 43491 broadcast messages and 146817 delivered messages after 173 seconds
+2020-03-27 10:13:28,028 - INFO - benchmark.py - root - _start() - 31 - 44910 broadcast messages and 151994 delivered messages after 179 seconds
+2020-03-27 10:13:28,651 - INFO - benchmark.py - root - _start() - 70 - 45075 broadcast messages and 152650 delivered messages after 180 seconds
+2020-03-27 10:13:28,651 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,652 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:29,018 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-dwjcb
+running benchmark
+2020-03-27 10:10:28,357 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=V9RqXXoLYvexdEecHjGGbgfLfgyqYGSdrva8pyHTpu6yADtAEgMnrz48 pubkey=1UTnV6kUfKzTWu6nnfCR1hsKX6jbwiAaaUVcuM prevtxhash=18911f5ac704c3691372c66c34679e8332c5004bd94b4d2bf493519ca2f2de16
+2020-03-27 10:10:28,366 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,003 - INFO - benchmark.py - root - _start() - 31 - 1713 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:40,005 - INFO - benchmark.py - root - _start() - 31 - 3396 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:46,643 - INFO - benchmark.py - root - _start() - 31 - 4881 broadcast messages and 0 delivered messages after 18 seconds
+2020-03-27 10:10:52,050 - INFO - benchmark.py - root - _start() - 31 - 6102 broadcast messages and 4616 delivered messages after 23 seconds
+2020-03-27 10:10:58,101 - INFO - benchmark.py - root - _start() - 31 - 7719 broadcast messages and 11088 delivered messages after 29 seconds
+2020-03-27 10:11:04,124 - INFO - benchmark.py - root - _start() - 31 - 9303 broadcast messages and 17391 delivered messages after 35 seconds
+2020-03-27 10:11:10,067 - INFO - benchmark.py - root - _start() - 31 - 10887 broadcast messages and 23726 delivered messages after 41 seconds
+2020-03-27 10:11:16,103 - INFO - benchmark.py - root - _start() - 31 - 12471 broadcast messages and 30063 delivered messages after 47 seconds
+2020-03-27 10:11:22,070 - INFO - benchmark.py - root - _start() - 31 - 13956 broadcast messages and 34316 delivered messages after 53 seconds
+2020-03-27 10:11:28,107 - INFO - benchmark.py - root - _start() - 31 - 15507 broadcast messages and 40161 delivered messages after 59 seconds
+2020-03-27 10:11:34,065 - INFO - benchmark.py - root - _start() - 31 - 16992 broadcast messages and 45932 delivered messages after 65 seconds
+2020-03-27 10:11:40,098 - INFO - benchmark.py - root - _start() - 31 - 18609 broadcast messages and 52404 delivered messages after 71 seconds
+2020-03-27 10:11:46,141 - INFO - benchmark.py - root - _start() - 31 - 19962 broadcast messages and 57491 delivered messages after 77 seconds
+2020-03-27 10:11:52,092 - INFO - benchmark.py - root - _start() - 31 - 21546 broadcast messages and 63851 delivered messages after 83 seconds
+2020-03-27 10:11:58,119 - INFO - benchmark.py - root - _start() - 31 - 23130 broadcast messages and 70158 delivered messages after 89 seconds
+2020-03-27 10:12:04,079 - INFO - benchmark.py - root - _start() - 31 - 24714 broadcast messages and 76486 delivered messages after 95 seconds
+2020-03-27 10:12:10,151 - INFO - benchmark.py - root - _start() - 31 - 26166 broadcast messages and 80454 delivered messages after 101 seconds
+2020-03-27 10:12:16,115 - INFO - benchmark.py - root - _start() - 31 - 27618 broadcast messages and 86023 delivered messages after 107 seconds
+2020-03-27 10:12:22,063 - INFO - benchmark.py - root - _start() - 31 - 29202 broadcast messages and 92367 delivered messages after 113 seconds
+2020-03-27 10:12:28,113 - INFO - benchmark.py - root - _start() - 31 - 30654 broadcast messages and 97577 delivered messages after 119 seconds
+2020-03-27 10:12:34,042 - INFO - benchmark.py - root - _start() - 31 - 32238 broadcast messages and 103913 delivered messages after 125 seconds
+2020-03-27 10:12:40,113 - INFO - benchmark.py - root - _start() - 31 - 33822 broadcast messages and 110245 delivered messages after 131 seconds
+2020-03-27 10:12:46,101 - INFO - benchmark.py - root - _start() - 31 - 35274 broadcast messages and 115628 delivered messages after 137 seconds
+2020-03-27 10:12:52,084 - INFO - benchmark.py - root - _start() - 31 - 36858 broadcast messages and 121935 delivered messages after 143 seconds
+2020-03-27 10:12:58,044 - INFO - benchmark.py - root - _start() - 31 - 38409 broadcast messages and 127974 delivered messages after 149 seconds
+2020-03-27 10:13:04,117 - INFO - benchmark.py - root - _start() - 31 - 39795 broadcast messages and 133089 delivered messages after 155 seconds
+2020-03-27 10:13:10,055 - INFO - benchmark.py - root - _start() - 31 - 41346 broadcast messages and 139285 delivered messages after 161 seconds
+2020-03-27 10:13:16,058 - INFO - benchmark.py - root - _start() - 31 - 42930 broadcast messages and 145629 delivered messages after 167 seconds
+2020-03-27 10:13:22,041 - INFO - benchmark.py - root - _start() - 31 - 44448 broadcast messages and 151008 delivered messages after 173 seconds
+2020-03-27 10:13:28,018 - INFO - benchmark.py - root - _start() - 31 - 45933 broadcast messages and 156808 delivered messages after 179 seconds
+2020-03-27 10:13:28,401 - INFO - benchmark.py - root - _start() - 70 - 46032 broadcast messages and 157208 delivered messages after 180 seconds
+2020-03-27 10:13:28,402 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,403 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:28,770 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-k2hlp
+running benchmark
+2020-03-27 10:10:28,770 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=VDGab5GgoFb4ShLsPz1z8GzpreVo7xURMtbTFiB43P2bP5M15mxUgMVY pubkey=1UdWHFsEpKVXJMV6yQVrit8Gnu2viQmWFXHW9b prevtxhash=7a23d0cd0665aaba4f73efb4968b0c201cf70dcbac0cc08087c87d7c626e8bcd
+2020-03-27 10:10:28,779 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,012 - INFO - benchmark.py - root - _start() - 31 - 1581 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:40,033 - INFO - benchmark.py - root - _start() - 31 - 3264 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:46,061 - INFO - benchmark.py - root - _start() - 31 - 4914 broadcast messages and 0 delivered messages after 17 seconds
+2020-03-27 10:10:52,041 - INFO - benchmark.py - root - _start() - 31 - 6333 broadcast messages and 5276 delivered messages after 23 seconds
+2020-03-27 10:10:58,060 - INFO - benchmark.py - root - _start() - 31 - 7917 broadcast messages and 11612 delivered messages after 29 seconds
+2020-03-27 10:11:04,000 - INFO - benchmark.py - root - _start() - 31 - 9435 broadcast messages and 17684 delivered messages after 35 seconds
+2020-03-27 10:11:10,037 - INFO - benchmark.py - root - _start() - 31 - 11019 broadcast messages and 24016 delivered messages after 41 seconds
+2020-03-27 10:11:16,076 - INFO - benchmark.py - root - _start() - 31 - 12537 broadcast messages and 30092 delivered messages after 47 seconds
+2020-03-27 10:11:22,073 - INFO - benchmark.py - root - _start() - 31 - 14055 broadcast messages and 34807 delivered messages after 53 seconds
+2020-03-27 10:11:28,007 - INFO - benchmark.py - root - _start() - 31 - 15606 broadcast messages and 40681 delivered messages after 59 seconds
+2020-03-27 10:11:34,000 - INFO - benchmark.py - root - _start() - 31 - 17205 broadcast messages and 46922 delivered messages after 65 seconds
+2020-03-27 10:11:40,009 - INFO - benchmark.py - root - _start() - 31 - 18774 broadcast messages and 53262 delivered messages after 71 seconds
+2020-03-27 10:11:46,085 - INFO - benchmark.py - root - _start() - 31 - 20259 broadcast messages and 58835 delivered messages after 77 seconds
+2020-03-27 10:11:52,087 - INFO - benchmark.py - root - _start() - 31 - 21843 broadcast messages and 65171 delivered messages after 83 seconds
+2020-03-27 10:11:58,044 - INFO - benchmark.py - root - _start() - 31 - 23394 broadcast messages and 71375 delivered messages after 89 seconds
+2020-03-27 10:12:04,034 - INFO - benchmark.py - root - _start() - 31 - 24978 broadcast messages and 77715 delivered messages after 95 seconds
+2020-03-27 10:12:10,073 - INFO - benchmark.py - root - _start() - 31 - 26463 broadcast messages and 82067 delivered messages after 101 seconds
+2020-03-27 10:12:16,042 - INFO - benchmark.py - root - _start() - 31 - 27948 broadcast messages and 87995 delivered messages after 107 seconds
+2020-03-27 10:12:22,114 - INFO - benchmark.py - root - _start() - 31 - 29499 broadcast messages and 93943 delivered messages after 113 seconds
+2020-03-27 10:12:28,111 - INFO - benchmark.py - root - _start() - 31 - 31083 broadcast messages and 100250 delivered messages after 119 seconds
+2020-03-27 10:12:34,093 - INFO - benchmark.py - root - _start() - 31 - 32634 broadcast messages and 106446 delivered messages after 125 seconds
+2020-03-27 10:12:40,064 - INFO - benchmark.py - root - _start() - 31 - 34119 broadcast messages and 112035 delivered messages after 131 seconds
+2020-03-27 10:12:46,020 - INFO - benchmark.py - root - _start() - 31 - 35670 broadcast messages and 118231 delivered messages after 137 seconds
+2020-03-27 10:12:52,098 - INFO - benchmark.py - root - _start() - 31 - 37254 broadcast messages and 124571 delivered messages after 143 seconds
+2020-03-27 10:12:58,041 - INFO - benchmark.py - root - _start() - 31 - 38739 broadcast messages and 130214 delivered messages after 149 seconds
+2020-03-27 10:13:04,028 - INFO - benchmark.py - root - _start() - 31 - 40323 broadcast messages and 136550 delivered messages after 155 seconds
+2020-03-27 10:13:10,108 - INFO - benchmark.py - root - _start() - 31 - 41907 broadcast messages and 142808 delivered messages after 161 seconds
+2020-03-27 10:13:16,091 - INFO - benchmark.py - root - _start() - 31 - 43491 broadcast messages and 149061 delivered messages after 167 seconds
+2020-03-27 10:13:22,106 - INFO - benchmark.py - root - _start() - 31 - 44976 broadcast messages and 154634 delivered messages after 173 seconds
+2020-03-27 10:13:28,103 - INFO - benchmark.py - root - _start() - 31 - 46560 broadcast messages and 160966 delivered messages after 179 seconds
+2020-03-27 10:13:28,839 - INFO - benchmark.py - root - _start() - 70 - 46758 broadcast messages and 161762 delivered messages after 180 seconds
+2020-03-27 10:13:28,840 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,840 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:29,190 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-m97kr
+running benchmark
+2020-03-27 10:10:28,239 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=V8BWZtFL72pL4UFmVbhJQvjbEBJr5HEm7HHf5WmGSZHyjcNC7CfMrzon pubkey=1GJXq4HsppqyvPev1STqN6wkoqKrjhyud7J5aM prevtxhash=794a1a8b3bf58a0416100b9270e805b15f1469a8ce961480fc9b3eb43140d157
+2020-03-27 10:10:28,248 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,021 - INFO - benchmark.py - root - _start() - 31 - 1746 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:40,040 - INFO - benchmark.py - root - _start() - 31 - 3429 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:47,362 - INFO - benchmark.py - root - _start() - 31 - 4881 broadcast messages and 132 delivered messages after 19 seconds
+2020-03-27 10:10:53,032 - INFO - benchmark.py - root - _start() - 31 - 6366 broadcast messages and 6035 delivered messages after 24 seconds
+2020-03-27 10:10:59,046 - INFO - benchmark.py - root - _start() - 31 - 7950 broadcast messages and 12375 delivered messages after 30 seconds
+2020-03-27 10:11:05,074 - INFO - benchmark.py - root - _start() - 31 - 9534 broadcast messages and 18674 delivered messages after 36 seconds
+2020-03-27 10:11:11,076 - INFO - benchmark.py - root - _start() - 31 - 11118 broadcast messages and 25010 delivered messages after 42 seconds
+2020-03-27 10:11:17,089 - INFO - benchmark.py - root - _start() - 31 - 12702 broadcast messages and 30327 delivered messages after 48 seconds
+2020-03-27 10:11:23,072 - INFO - benchmark.py - root - _start() - 31 - 14154 broadcast messages and 35537 delivered messages after 54 seconds
+2020-03-27 10:11:29,008 - INFO - benchmark.py - root - _start() - 31 - 15606 broadcast messages and 41019 delivered messages after 60 seconds
+2020-03-27 10:11:35,071 - INFO - benchmark.py - root - _start() - 31 - 17124 broadcast messages and 47091 delivered messages after 66 seconds
+2020-03-27 10:11:41,054 - INFO - benchmark.py - root - _start() - 31 - 18708 broadcast messages and 53423 delivered messages after 72 seconds
+2020-03-27 10:11:47,021 - INFO - benchmark.py - root - _start() - 31 - 20061 broadcast messages and 58208 delivered messages after 78 seconds
+2020-03-27 10:11:53,012 - INFO - benchmark.py - root - _start() - 31 - 21645 broadcast messages and 64540 delivered messages after 84 seconds
+2020-03-27 10:11:59,038 - INFO - benchmark.py - root - _start() - 31 - 23196 broadcast messages and 70748 delivered messages after 90 seconds
+2020-03-27 10:12:05,116 - INFO - benchmark.py - root - _start() - 31 - 24780 broadcast messages and 77018 delivered messages after 96 seconds
+2020-03-27 10:12:11,113 - INFO - benchmark.py - root - _start() - 31 - 26133 broadcast messages and 80809 delivered messages after 102 seconds
+2020-03-27 10:12:17,016 - INFO - benchmark.py - root - _start() - 31 - 27585 broadcast messages and 86588 delivered messages after 108 seconds
+2020-03-27 10:12:23,028 - INFO - benchmark.py - root - _start() - 31 - 29136 broadcast messages and 92693 delivered messages after 114 seconds
+2020-03-27 10:12:29,106 - INFO - benchmark.py - root - _start() - 31 - 30621 broadcast messages and 98204 delivered messages after 120 seconds
+2020-03-27 10:12:35,060 - INFO - benchmark.py - root - _start() - 31 - 32172 broadcast messages and 104375 delivered messages after 126 seconds
+2020-03-27 10:12:41,062 - INFO - benchmark.py - root - _start() - 31 - 33756 broadcast messages and 110707 delivered messages after 132 seconds
+2020-03-27 10:12:47,080 - INFO - benchmark.py - root - _start() - 31 - 35208 broadcast messages and 115995 delivered messages after 138 seconds
+2020-03-27 10:12:53,078 - INFO - benchmark.py - root - _start() - 31 - 36792 broadcast messages and 122224 delivered messages after 144 seconds
+2020-03-27 10:12:59,033 - INFO - benchmark.py - root - _start() - 31 - 38277 broadcast messages and 127974 delivered messages after 150 seconds
+2020-03-27 10:13:05,060 - INFO - benchmark.py - root - _start() - 31 - 39696 broadcast messages and 133213 delivered messages after 156 seconds
+2020-03-27 10:13:11,070 - INFO - benchmark.py - root - _start() - 31 - 41280 broadcast messages and 139553 delivered messages after 162 seconds
+2020-03-27 10:13:17,090 - INFO - benchmark.py - root - _start() - 31 - 42864 broadcast messages and 145761 delivered messages after 168 seconds
+2020-03-27 10:13:23,105 - INFO - benchmark.py - root - _start() - 31 - 44349 broadcast messages and 151194 delivered messages after 174 seconds
+2020-03-27 10:13:28,271 - INFO - benchmark.py - root - _start() - 70 - 45636 broadcast messages and 156251 delivered messages after 180 seconds
+2020-03-27 10:13:28,271 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,271 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:28,759 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-pg2t4
+running benchmark
+2020-03-27 10:10:28,637 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=VGfLNAuZ1A7gvr6fFFH8J8zUBguUr9zjDLPhLQu2rDaoWt4FndpbLrT7 pubkey=1SY7AN7AcJRkLwUdU88LqHNKwnD5ry3JS65ipN prevtxhash=56c9fb4cc45f163f669a3d308ca11be993df2e581ddf73269503452308c87409
+2020-03-27 10:10:28,652 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,038 - INFO - benchmark.py - root - _start() - 31 - 1614 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:40,094 - INFO - benchmark.py - root - _start() - 31 - 3297 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:46,094 - INFO - benchmark.py - root - _start() - 31 - 4815 broadcast messages and 5701 delivered messages after 17 seconds
+2020-03-27 10:10:52,009 - INFO - benchmark.py - root - _start() - 31 - 6399 broadcast messages and 9603 delivered messages after 23 seconds
+2020-03-27 10:10:58,105 - INFO - benchmark.py - root - _start() - 31 - 7983 broadcast messages and 12639 delivered messages after 29 seconds
+2020-03-27 10:11:04,075 - INFO - benchmark.py - root - _start() - 31 - 9534 broadcast messages and 18843 delivered messages after 35 seconds
+2020-03-27 10:11:10,060 - INFO - benchmark.py - root - _start() - 31 - 11019 broadcast messages and 23628 delivered messages after 41 seconds
+2020-03-27 10:11:16,093 - INFO - benchmark.py - root - _start() - 31 - 12570 broadcast messages and 28842 delivered messages after 47 seconds
+2020-03-27 10:11:22,041 - INFO - benchmark.py - root - _start() - 31 - 14088 broadcast messages and 34778 delivered messages after 53 seconds
+2020-03-27 10:11:28,000 - INFO - benchmark.py - root - _start() - 31 - 15660 broadcast messages and 39732 delivered messages after 59 seconds
+2020-03-27 10:11:34,060 - INFO - benchmark.py - root - _start() - 31 - 17289 broadcast messages and 41811 delivered messages after 65 seconds
+2020-03-27 10:11:40,045 - INFO - benchmark.py - root - _start() - 31 - 18807 broadcast messages and 46720 delivered messages after 71 seconds
+2020-03-27 10:11:46,037 - INFO - benchmark.py - root - _start() - 31 - 20358 broadcast messages and 52569 delivered messages after 77 seconds
+2020-03-27 10:11:52,043 - INFO - benchmark.py - root - _start() - 31 - 21942 broadcast messages and 57684 delivered messages after 83 seconds
+2020-03-27 10:11:58,035 - INFO - benchmark.py - root - _start() - 31 - 23493 broadcast messages and 62964 delivered messages after 89 seconds
+2020-03-27 10:12:04,023 - INFO - benchmark.py - root - _start() - 31 - 25110 broadcast messages and 65637 delivered messages after 95 seconds
+2020-03-27 10:12:10,079 - INFO - benchmark.py - root - _start() - 31 - 26595 broadcast messages and 69725 delivered messages after 101 seconds
+2020-03-27 10:12:16,004 - INFO - benchmark.py - root - _start() - 31 - 28146 broadcast messages and 75925 delivered messages after 107 seconds
+2020-03-27 10:12:22,069 - INFO - benchmark.py - root - _start() - 31 - 29697 broadcast messages and 80681 delivered messages after 113 seconds
+2020-03-27 10:12:28,103 - INFO - benchmark.py - root - _start() - 31 - 31281 broadcast messages and 86592 delivered messages after 119 seconds
+2020-03-27 10:12:34,090 - INFO - benchmark.py - root - _start() - 31 - 32865 broadcast messages and 90981 delivered messages after 125 seconds
+2020-03-27 10:12:40,115 - INFO - benchmark.py - root - _start() - 31 - 34416 broadcast messages and 95857 delivered messages after 131 seconds
+2020-03-27 10:12:46,016 - INFO - benchmark.py - root - _start() - 31 - 35967 broadcast messages and 100745 delivered messages after 137 seconds
+2020-03-27 10:12:52,109 - INFO - benchmark.py - root - _start() - 31 - 37551 broadcast messages and 107081 delivered messages after 143 seconds
+2020-03-27 10:12:58,081 - INFO - benchmark.py - root - _start() - 31 - 39102 broadcast messages and 112068 delivered messages after 149 seconds
+2020-03-27 10:13:04,000 - INFO - benchmark.py - root - _start() - 31 - 40753 broadcast messages and 112068 delivered messages after 155 seconds
+2020-03-27 10:13:10,003 - INFO - benchmark.py - root - _start() - 31 - 42270 broadcast messages and 117872 delivered messages after 161 seconds
+2020-03-27 10:13:16,142 - INFO - benchmark.py - root - _start() - 31 - 43887 broadcast messages and 122991 delivered messages after 167 seconds
+2020-03-27 10:13:22,088 - INFO - benchmark.py - root - _start() - 31 - 45438 broadcast messages and 129195 delivered messages after 173 seconds
+2020-03-27 10:13:28,067 - INFO - benchmark.py - root - _start() - 31 - 46989 broadcast messages and 132957 delivered messages after 179 seconds
+2020-03-27 10:13:28,706 - INFO - benchmark.py - root - _start() - 70 - 47154 broadcast messages and 133613 delivered messages after 180 seconds
+2020-03-27 10:13:28,707 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,707 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:29,042 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-t4dn2
+running benchmark
+2020-03-27 10:10:29,096 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=VCjeyqxZZn2Askbk6EvyaXHbJV3wXQ2zgyatMg2qUAT1DqYgH8ruTYNg pubkey=1YCtm7cVvbWfAdTfEDaQz2Shk2FQy1wkjF7g9c prevtxhash=53066f75ccedaa0321385673af3cb41dbaceb49e2b7c270fbe446392dad437e8
+2020-03-27 10:10:29,119 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:35,041 - INFO - benchmark.py - root - _start() - 31 - 1812 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:41,096 - INFO - benchmark.py - root - _start() - 31 - 3528 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:47,376 - INFO - benchmark.py - root - _start() - 31 - 4716 broadcast messages and 99 delivered messages after 18 seconds
+2020-03-27 10:10:53,089 - INFO - benchmark.py - root - _start() - 31 - 6168 broadcast messages and 5899 delivered messages after 23 seconds
+2020-03-27 10:10:59,009 - INFO - benchmark.py - root - _start() - 31 - 7686 broadcast messages and 11979 delivered messages after 29 seconds
+2020-03-27 10:11:05,088 - INFO - benchmark.py - root - _start() - 31 - 9237 broadcast messages and 18146 delivered messages after 35 seconds
+2020-03-27 10:11:11,115 - INFO - benchmark.py - root - _start() - 31 - 10788 broadcast messages and 24317 delivered messages after 41 seconds
+2020-03-27 10:11:17,021 - INFO - benchmark.py - root - _start() - 31 - 12306 broadcast messages and 30261 delivered messages after 47 seconds
+2020-03-27 10:11:23,066 - INFO - benchmark.py - root - _start() - 31 - 13758 broadcast messages and 34787 delivered messages after 53 seconds
+2020-03-27 10:11:29,017 - INFO - benchmark.py - root - _start() - 31 - 15177 broadcast messages and 39996 delivered messages after 59 seconds
+2020-03-27 10:11:35,016 - INFO - benchmark.py - root - _start() - 31 - 16662 broadcast messages and 45664 delivered messages after 65 seconds
+2020-03-27 10:11:41,084 - INFO - benchmark.py - root - _start() - 31 - 18213 broadcast messages and 51876 delivered messages after 71 seconds
+2020-03-27 10:11:47,076 - INFO - benchmark.py - root - _start() - 31 - 19566 broadcast messages and 56727 delivered messages after 77 seconds
+2020-03-27 10:11:53,091 - INFO - benchmark.py - root - _start() - 31 - 21117 broadcast messages and 62931 delivered messages after 83 seconds
+2020-03-27 10:11:59,041 - INFO - benchmark.py - root - _start() - 31 - 22635 broadcast messages and 68900 delivered messages after 89 seconds
+2020-03-27 10:12:05,099 - INFO - benchmark.py - root - _start() - 31 - 24186 broadcast messages and 75038 delivered messages after 95 seconds
+2020-03-27 10:12:11,007 - INFO - benchmark.py - root - _start() - 31 - 25506 broadcast messages and 78507 delivered messages after 101 seconds
+2020-03-27 10:12:17,007 - INFO - benchmark.py - root - _start() - 31 - 26958 broadcast messages and 84204 delivered messages after 107 seconds
+2020-03-27 10:12:23,038 - INFO - benchmark.py - root - _start() - 31 - 28476 broadcast messages and 90185 delivered messages after 113 seconds
+2020-03-27 10:12:29,084 - INFO - benchmark.py - root - _start() - 31 - 29928 broadcast messages and 95663 delivered messages after 119 seconds
+2020-03-27 10:12:35,088 - INFO - benchmark.py - root - _start() - 31 - 31446 broadcast messages and 101706 delivered messages after 125 seconds
+2020-03-27 10:12:41,000 - INFO - benchmark.py - root - _start() - 31 - 32988 broadcast messages and 107770 delivered messages after 131 seconds
+2020-03-27 10:12:47,056 - INFO - benchmark.py - root - _start() - 31 - 34416 broadcast messages and 113087 delivered messages after 137 seconds
+2020-03-27 10:12:53,084 - INFO - benchmark.py - root - _start() - 31 - 35967 broadcast messages and 119221 delivered messages after 143 seconds
+2020-03-27 10:12:59,039 - INFO - benchmark.py - root - _start() - 31 - 37419 broadcast messages and 124868 delivered messages after 149 seconds
+2020-03-27 10:13:05,117 - INFO - benchmark.py - root - _start() - 31 - 38838 broadcast messages and 130082 delivered messages after 155 seconds
+2020-03-27 10:13:11,023 - INFO - benchmark.py - root - _start() - 31 - 40356 broadcast messages and 136146 delivered messages after 161 seconds
+2020-03-27 10:13:17,111 - INFO - benchmark.py - root - _start() - 31 - 41907 broadcast messages and 142226 delivered messages after 167 seconds
+2020-03-27 10:13:23,085 - INFO - benchmark.py - root - _start() - 31 - 43326 broadcast messages and 147828 delivered messages after 173 seconds
+2020-03-27 10:13:29,023 - INFO - benchmark.py - root - _start() - 31 - 44745 broadcast messages and 153054 delivered messages after 179 seconds
+2020-03-27 10:13:29,153 - INFO - benchmark.py - root - _start() - 70 - 44778 broadcast messages and 153182 delivered messages after 180 seconds
+2020-03-27 10:13:29,154 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:29,154 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:29,536 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-v24fb
+running benchmark
+2020-03-27 10:10:28,314 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=V6Dz47WMrX7CBVSidaiFs6MQbiQ24hbhHr3FCd24HZBMG5Tg5dTxKCpQ pubkey=1EYaNqbusnQ7ytRoJ53TaUTjokXSGdu5GRJ1sL prevtxhash=9ceed4bf3e4dc0e7d7237280c02e5ae405f4fac86e1859c0e8a036e59450c705
+2020-03-27 10:10:28,324 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,018 - INFO - benchmark.py - root - _start() - 31 - 1746 broadcast messages and 0 delivered messages after 5 seconds
+2020-03-27 10:10:40,063 - INFO - benchmark.py - root - _start() - 31 - 3462 broadcast messages and 0 delivered messages after 11 seconds
+2020-03-27 10:10:46,008 - INFO - benchmark.py - root - _start() - 31 - 5013 broadcast messages and 5404 delivered messages after 17 seconds
+2020-03-27 10:10:52,018 - INFO - benchmark.py - root - _start() - 31 - 6663 broadcast messages and 9603 delivered messages after 23 seconds
+2020-03-27 10:10:58,004 - INFO - benchmark.py - root - _start() - 31 - 8214 broadcast messages and 12371 delivered messages after 29 seconds
+2020-03-27 10:11:04,089 - INFO - benchmark.py - root - _start() - 31 - 9831 broadcast messages and 18839 delivered messages after 35 seconds
+2020-03-27 10:11:10,098 - INFO - benchmark.py - root - _start() - 31 - 11415 broadcast messages and 23888 delivered messages after 41 seconds
+2020-03-27 10:11:16,095 - INFO - benchmark.py - root - _start() - 31 - 12999 broadcast messages and 29040 delivered messages after 47 seconds
+2020-03-27 10:11:22,059 - INFO - benchmark.py - root - _start() - 31 - 14550 broadcast messages and 35244 delivered messages after 53 seconds
+2020-03-27 10:11:28,004 - INFO - benchmark.py - root - _start() - 31 - 16134 broadcast messages and 40256 delivered messages after 59 seconds
+2020-03-27 10:11:34,084 - INFO - benchmark.py - root - _start() - 31 - 17850 broadcast messages and 41811 delivered messages after 65 seconds
+2020-03-27 10:11:40,024 - INFO - benchmark.py - root - _start() - 31 - 19368 broadcast messages and 47351 delivered messages after 71 seconds
+2020-03-27 10:11:46,036 - INFO - benchmark.py - root - _start() - 31 - 20985 broadcast messages and 52602 delivered messages after 77 seconds
+2020-03-27 10:11:52,055 - INFO - benchmark.py - root - _start() - 31 - 22602 broadcast messages and 57684 delivered messages after 83 seconds
+2020-03-27 10:11:58,023 - INFO - benchmark.py - root - _start() - 31 - 24153 broadcast messages and 63880 delivered messages after 89 seconds
+2020-03-27 10:12:04,031 - INFO - benchmark.py - root - _start() - 31 - 25836 broadcast messages and 65637 delivered messages after 95 seconds
+2020-03-27 10:12:10,015 - INFO - benchmark.py - root - _start() - 31 - 27354 broadcast messages and 69593 delivered messages after 101 seconds
+2020-03-27 10:12:16,075 - INFO - benchmark.py - root - _start() - 31 - 28971 broadcast messages and 76061 delivered messages after 107 seconds
+2020-03-27 10:12:22,005 - INFO - benchmark.py - root - _start() - 31 - 30522 broadcast messages and 80945 delivered messages after 113 seconds
+2020-03-27 10:12:28,005 - INFO - benchmark.py - root - _start() - 31 - 32139 broadcast messages and 86592 delivered messages after 119 seconds
+2020-03-27 10:12:34,046 - INFO - benchmark.py - root - _start() - 31 - 33789 broadcast messages and 90981 delivered messages after 125 seconds
+2020-03-27 10:12:40,097 - INFO - benchmark.py - root - _start() - 31 - 35373 broadcast messages and 96542 delivered messages after 131 seconds
+2020-03-27 10:12:46,051 - INFO - benchmark.py - root - _start() - 31 - 36957 broadcast messages and 100514 delivered messages after 137 seconds
+2020-03-27 10:12:52,068 - INFO - benchmark.py - root - _start() - 31 - 38574 broadcast messages and 106982 delivered messages after 143 seconds
+2020-03-27 10:12:58,027 - INFO - benchmark.py - root - _start() - 31 - 40158 broadcast messages and 112031 delivered messages after 149 seconds
+2020-03-27 10:13:04,022 - INFO - benchmark.py - root - _start() - 31 - 41874 broadcast messages and 112068 delivered messages after 155 seconds
+2020-03-27 10:13:10,070 - INFO - benchmark.py - root - _start() - 31 - 43425 broadcast messages and 118004 delivered messages after 161 seconds
+2020-03-27 10:13:16,143 - INFO - benchmark.py - root - _start() - 31 - 45042 broadcast messages and 123086 delivered messages after 167 seconds
+2020-03-27 10:13:22,034 - INFO - benchmark.py - root - _start() - 31 - 46626 broadcast messages and 129426 delivered messages after 173 seconds
+2020-03-27 10:13:28,071 - INFO - benchmark.py - root - _start() - 31 - 48210 broadcast messages and 132392 delivered messages after 179 seconds
+2020-03-27 10:13:28,440 - INFO - benchmark.py - root - _start() - 70 - 48309 broadcast messages and 132776 delivered messages after 180 seconds
+2020-03-27 10:13:28,440 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,441 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:28,777 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+broadcast-vzgx9
+running benchmark
+2020-03-27 10:10:28,778 - INFO - protocols.py - tamperproofbroadcast - _start() - 62 - starting blockchain broadcast: privkey=V9qmqD7HTvVPLJsVNaVY5n5jqgjV6skpa8W7uyzdG9dosE5ekSeTtFRv pubkey=1Tp9Kk3A5XAdgTaLGt87WAKy9rf5ZKRjJsz2kA prevtxhash=d986d0c445d1fc2e46f220b5dd8ad68716cecfdaadc926a1d6378e408d65c33a
+2020-03-27 10:10:28,786 - INFO - benchmark.py - root - _start() - 20 - starting benchmark
+2020-03-27 10:10:34,071 - INFO - benchmark.py - root - _start() - 31 - 1614 broadcast messages and 161 delivered messages after 5 seconds
+2020-03-27 10:10:40,077 - INFO - benchmark.py - root - _start() - 31 - 3297 broadcast messages and 1320 delivered messages after 11 seconds
+2020-03-27 10:10:46,007 - INFO - benchmark.py - root - _start() - 31 - 4914 broadcast messages and 3498 delivered messages after 17 seconds
+2020-03-27 10:10:52,052 - INFO - benchmark.py - root - _start() - 31 - 6630 broadcast messages and 3498 delivered messages after 23 seconds
+2020-03-27 10:10:58,009 - INFO - benchmark.py - root - _start() - 31 - 8280 broadcast messages and 5111 delivered messages after 29 seconds
+2020-03-27 10:11:04,075 - INFO - benchmark.py - root - _start() - 31 - 9930 broadcast messages and 9009 delivered messages after 35 seconds
+2020-03-27 10:11:10,111 - INFO - benchmark.py - root - _start() - 31 - 11646 broadcast messages and 9009 delivered messages after 41 seconds
+2020-03-27 10:11:16,030 - INFO - benchmark.py - root - _start() - 31 - 13263 broadcast messages and 11814 delivered messages after 47 seconds
+2020-03-27 10:11:22,023 - INFO - benchmark.py - root - _start() - 31 - 14946 broadcast messages and 11814 delivered messages after 53 seconds
+2020-03-27 10:11:28,037 - INFO - benchmark.py - root - _start() - 31 - 16563 broadcast messages and 14219 delivered messages after 59 seconds
+2020-03-27 10:11:34,113 - INFO - benchmark.py - root - _start() - 31 - 18246 broadcast messages and 16929 delivered messages after 65 seconds
+2020-03-27 10:11:40,050 - INFO - benchmark.py - root - _start() - 31 - 19929 broadcast messages and 17391 delivered messages after 71 seconds
+2020-03-27 10:11:46,110 - INFO - benchmark.py - root - _start() - 31 - 21612 broadcast messages and 19470 delivered messages after 77 seconds
+2020-03-27 10:11:52,010 - INFO - benchmark.py - root - _start() - 31 - 23295 broadcast messages and 19470 delivered messages after 83 seconds
+2020-03-27 10:11:58,086 - INFO - benchmark.py - root - _start() - 31 - 24945 broadcast messages and 23166 delivered messages after 89 seconds
+2020-03-27 10:12:04,037 - INFO - benchmark.py - root - _start() - 31 - 26628 broadcast messages and 23166 delivered messages after 95 seconds
+2020-03-27 10:12:10,025 - INFO - benchmark.py - root - _start() - 31 - 28278 broadcast messages and 25596 delivered messages after 101 seconds
+2020-03-27 10:12:16,103 - INFO - benchmark.py - root - _start() - 31 - 29961 broadcast messages and 28083 delivered messages after 107 seconds
+2020-03-27 10:12:22,079 - INFO - benchmark.py - root - _start() - 31 - 31644 broadcast messages and 28706 delivered messages after 113 seconds
+2020-03-27 10:12:28,047 - INFO - benchmark.py - root - _start() - 31 - 33294 broadcast messages and 31185 delivered messages after 119 seconds
+2020-03-27 10:12:34,101 - INFO - benchmark.py - root - _start() - 31 - 35010 broadcast messages and 31185 delivered messages after 125 seconds
+2020-03-27 10:12:40,106 - INFO - benchmark.py - root - _start() - 31 - 36660 broadcast messages and 33891 delivered messages after 131 seconds
+2020-03-27 10:12:46,112 - INFO - benchmark.py - root - _start() - 31 - 38310 broadcast messages and 37022 delivered messages after 137 seconds
+2020-03-27 10:12:52,057 - INFO - benchmark.py - root - _start() - 31 - 39960 broadcast messages and 39171 delivered messages after 143 seconds
+2020-03-27 10:12:58,093 - INFO - benchmark.py - root - _start() - 31 - 41676 broadcast messages and 39171 delivered messages after 149 seconds
+2020-03-27 10:13:04,012 - INFO - benchmark.py - root - _start() - 31 - 43359 broadcast messages and 39171 delivered messages after 155 seconds
+2020-03-27 10:13:10,054 - INFO - benchmark.py - root - _start() - 31 - 45042 broadcast messages and 39860 delivered messages after 161 seconds
+2020-03-27 10:13:16,048 - INFO - benchmark.py - root - _start() - 31 - 46659 broadcast messages and 44451 delivered messages after 167 seconds
+2020-03-27 10:13:22,097 - INFO - benchmark.py - root - _start() - 31 - 48309 broadcast messages and 47751 delivered messages after 173 seconds
+2020-03-27 10:13:28,000 - INFO - benchmark.py - root - _start() - 31 - 50015 broadcast messages and 47751 delivered messages after 179 seconds
+2020-03-27 10:13:28,814 - INFO - benchmark.py - root - _start() - 70 - 50223 broadcast messages and 47751 delivered messages after 180 seconds
+2020-03-27 10:13:28,814 - INFO - benchmark.py - root - _start() - 74 - benchmark finished
+2020-03-27 10:13:28,815 - INFO - benchmark.py - root - _start() - 76 - uploading file to google cloud storage
+2020-03-27 10:13:29,106 - INFO - benchmark.py - root - _start() - 81 - upload finished
+finished benchmark
+multichain-0
+setting up environment
+installing etcdctl
+@testing http://nl.alpinelinux.org/alpine/edge/testing
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/community/x86_64/APKINDEX.tar.gz
+fetch http://nl.alpinelinux.org/alpine/edge/testing/x86_64/APKINDEX.tar.gz
+(1/1) Installing etcd-ctl@testing (3.4.5-r0)
+Executing busybox-1.31.1-r9.trigger
+OK: 27 MiB in 15 packages
+
+installing multichain
+multichain-2.0.5/
+multichain-2.0.5/multichain-util
+multichain-2.0.5/multichain-cli
+multichain-2.0.5/README.txt
+multichain-2.0.5/multichaind
+multichain-2.0.5/multichaind-cold
+
+connecting multichain blockchain
+creating a new blockchain
+
+MultiChain 2.0.5 Utilities (latest protocol 20011)
+
+Blockchain parameter set was successfully generated.
+You can edit it in /root/.multichain/chain/params.dat before running multichaind for the first time.
+
+To generate blockchain please run "multichaind chain -daemon".
+running a new blockchain
+Looking for genesis block...
+Genesis block found
+
+Other nodes can connect to this node using:
+multichaind chain@10.16.12.2:7209
+
+Node ready.
+
+multichain-1
+setting up environment
+installing etcdctl
+@testing http://nl.alpinelinux.org/alpine/edge/testing
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/community/x86_64/APKINDEX.tar.gz
+fetch http://nl.alpinelinux.org/alpine/edge/testing/x86_64/APKINDEX.tar.gz
+(1/1) Installing etcd-ctl@testing (3.4.5-r0)
+Executing busybox-1.31.1-r9.trigger
+OK: 27 MiB in 15 packages
+
+installing multichain
+multichain-2.0.5/
+multichain-2.0.5/multichain-util
+multichain-2.0.5/multichain-cli
+multichain-2.0.5/README.txt
+multichain-2.0.5/multichaind
+multichain-2.0.5/multichaind-cold
+
+connecting multichain blockchain
+joining an existing blockchain
+Retrieving blockchain parameters from the seed node 10.0.16.219:7209 ...
+Other nodes can connect to this node using:
+multichaind chain@10.16.15.2:7209
+
+Node ready.
+
+multichain-2
+setting up environment
+installing etcdctl
+@testing http://nl.alpinelinux.org/alpine/edge/testing
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/community/x86_64/APKINDEX.tar.gz
+fetch http://nl.alpinelinux.org/alpine/edge/testing/x86_64/APKINDEX.tar.gz
+(1/1) Installing etcd-ctl@testing (3.4.5-r0)
+Executing busybox-1.31.1-r9.trigger
+OK: 27 MiB in 15 packages
+
+installing multichain
+multichain-2.0.5/
+multichain-2.0.5/multichain-util
+multichain-2.0.5/multichain-cli
+multichain-2.0.5/README.txt
+multichain-2.0.5/multichaind
+multichain-2.0.5/multichaind-cold
+
+connecting multichain blockchain
+joining an existing blockchain
+Retrieving blockchain parameters from the seed node 10.0.16.219:7209 ...
+Other nodes can connect to this node using:
+multichaind chain@10.16.17.2:7209
+
+Node ready.
+
+multichain-3
+setting up environment
+installing etcdctl
+@testing http://nl.alpinelinux.org/alpine/edge/testing
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/community/x86_64/APKINDEX.tar.gz
+fetch http://nl.alpinelinux.org/alpine/edge/testing/x86_64/APKINDEX.tar.gz
+(1/1) Installing etcd-ctl@testing (3.4.5-r0)
+Executing busybox-1.31.1-r9.trigger
+OK: 27 MiB in 15 packages
+
+installing multichain
+multichain-2.0.5/
+multichain-2.0.5/multichain-util
+multichain-2.0.5/multichain-cli
+multichain-2.0.5/README.txt
+multichain-2.0.5/multichaind
+multichain-2.0.5/multichaind-cold
+
+connecting multichain blockchain
+joining an existing blockchain
+Retrieving blockchain parameters from the seed node 10.0.16.219:7209 ...
+Other nodes can connect to this node using:
+multichaind chain@10.16.16.2:7209
+
+Node ready.
+
+multichain-4
+setting up environment
+installing etcdctl
+@testing http://nl.alpinelinux.org/alpine/edge/testing
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/community/x86_64/APKINDEX.tar.gz
+fetch http://nl.alpinelinux.org/alpine/edge/testing/x86_64/APKINDEX.tar.gz
+(1/1) Installing etcd-ctl@testing (3.4.5-r0)
+Executing busybox-1.31.1-r9.trigger
+OK: 27 MiB in 15 packages
+
+installing multichain
+multichain-2.0.5/
+multichain-2.0.5/multichain-util
+multichain-2.0.5/multichain-cli
+multichain-2.0.5/README.txt
+multichain-2.0.5/multichaind
+multichain-2.0.5/multichaind-cold
+
+connecting multichain blockchain
+joining an existing blockchain
+Retrieving blockchain parameters from the seed node 10.0.16.219:7209 ...
+Other nodes can connect to this node using:
+multichaind chain@10.16.13.3:7209
+
+Node ready.
+
+multichain-5
+setting up environment
+installing etcdctl
+@testing http://nl.alpinelinux.org/alpine/edge/testing
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.11/community/x86_64/APKINDEX.tar.gz
+fetch http://nl.alpinelinux.org/alpine/edge/testing/x86_64/APKINDEX.tar.gz
+(1/1) Installing etcd-ctl@testing (3.4.5-r0)
+Executing busybox-1.31.1-r9.trigger
+OK: 27 MiB in 15 packages
+
+installing multichain
+multichain-2.0.5/
+multichain-2.0.5/multichain-util
+multichain-2.0.5/multichain-cli
+multichain-2.0.5/README.txt
+multichain-2.0.5/multichaind
+multichain-2.0.5/multichaind-cold
+
+connecting multichain blockchain
+joining an existing blockchain
+Retrieving blockchain parameters from the seed node 10.0.16.219:7209 ...
+Other nodes can connect to this node using:
+multichaind chain@10.16.14.2:7209
+
+Node ready.
+
+multichainetcd-0
+==> Bash debug is off
+==> Creating data dir...
+==> There is no data at all. Initializing a new member of the cluster...
+2020-03-27 10:01:49.333272 I | pkg/flags: recognized and used environment variable ETCD_ADVERTISE_CLIENT_URLS=http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2379
+2020-03-27 10:01:49.333442 I | pkg/flags: recognized and used environment variable ETCD_DATA_DIR=/opt/bitnami/etcd/data
+2020-03-27 10:01:49.333480 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_ADVERTISE_PEER_URLS=http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380
+2020-03-27 10:01:49.333488 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER=multichainetcd-0=http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-1=http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-2=http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-3=http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-4=http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-5=http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380,
+2020-03-27 10:01:49.333495 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_STATE=new
+2020-03-27 10:01:49.333501 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_TOKEN=etcd-cluster-k8s
+2020-03-27 10:01:49.333531 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
+2020-03-27 10:01:49.333540 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
+2020-03-27 10:01:49.333560 I | pkg/flags: recognized and used environment variable ETCD_NAME=multichainetcd-0
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.333652 I | etcdmain: etcd Version: 3.4.4
+2020-03-27 10:01:49.333657 I | etcdmain: Git SHA: c65a9e2dd
+2020-03-27 10:01:49.333661 I | etcdmain: Go Version: go1.12.12
+2020-03-27 10:01:49.333673 I | etcdmain: Go OS/Arch: linux/amd64
+2020-03-27 10:01:49.333678 I | etcdmain: setting maximum number of CPUs to 2, total number of available CPUs is 2
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.333944 I | embed: name = multichainetcd-0
+2020-03-27 10:01:49.333953 I | embed: data dir = /opt/bitnami/etcd/data
+2020-03-27 10:01:49.333959 I | embed: member dir = /opt/bitnami/etcd/data/member
+2020-03-27 10:01:49.333963 I | embed: heartbeat = 100ms
+2020-03-27 10:01:49.333968 I | embed: election = 1000ms
+2020-03-27 10:01:49.333995 I | embed: snapshot count = 100000
+2020-03-27 10:01:49.334007 I | embed: advertise client URLs = http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2379
+{"level":"info","ts":1585303309.344761,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.9.2:2380"}
+{"level":"info","ts":1585303309.3448594,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.9.2:2380"}
+2020-03-27 10:01:49.401030 I | etcdserver: starting member 6339d9f226778fea in cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=()
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea became follower at term 0
+raft2020/03/27 10:01:49 INFO: newRaft 6339d9f226778fea [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea became follower at term 1
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914)
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713)
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823)
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499)
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343)
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.407492 W | auth: simple token is not cryptographically signed
+2020-03-27 10:01:49.410063 I | rafthttp: starting peer 6c21b695f9440199...
+2020-03-27 10:01:49.410123 I | rafthttp: started HTTP pipelining with peer 6c21b695f9440199
+2020-03-27 10:01:49.413309 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.417919 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.419759 I | rafthttp: started peer 6c21b695f9440199
+2020-03-27 10:01:49.420309 I | rafthttp: added peer 6c21b695f9440199
+2020-03-27 10:01:49.420330 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:49.420348 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.420473 I | rafthttp: starting peer 77589045bfad6f8f...
+2020-03-27 10:01:49.420493 I | rafthttp: started HTTP pipelining with peer 77589045bfad6f8f
+2020-03-27 10:01:49.423124 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.424325 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.426375 I | rafthttp: started peer 77589045bfad6f8f
+2020-03-27 10:01:49.426408 I | rafthttp: added peer 77589045bfad6f8f
+2020-03-27 10:01:49.426426 I | rafthttp: starting peer 7d6abc343529f71b...
+2020-03-27 10:01:49.426476 I | rafthttp: started HTTP pipelining with peer 7d6abc343529f71b
+2020-03-27 10:01:49.427036 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.427405 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:49.428128 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.432216 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.434415 I | rafthttp: started peer 7d6abc343529f71b
+2020-03-27 10:01:49.434508 I | rafthttp: added peer 7d6abc343529f71b
+2020-03-27 10:01:49.434624 I | rafthttp: starting peer 99c1d2c90df9419f...
+2020-03-27 10:01:49.434732 I | rafthttp: started HTTP pipelining with peer 99c1d2c90df9419f
+2020-03-27 10:01:49.436074 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+2020-03-27 10:01:49.436493 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream Message reader)
+2020-03-27 10:01:49.438036 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.438212 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.440518 I | rafthttp: started peer 99c1d2c90df9419f
+2020-03-27 10:01:49.440631 I | rafthttp: added peer 99c1d2c90df9419f
+2020-03-27 10:01:49.440727 I | rafthttp: starting peer d7b82893c8a47cb2...
+2020-03-27 10:01:49.440819 I | rafthttp: started HTTP pipelining with peer d7b82893c8a47cb2
+2020-03-27 10:01:49.441115 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.441516 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream Message reader)
+2020-03-27 10:01:49.444252 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.444388 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.446860 I | rafthttp: started peer d7b82893c8a47cb2
+2020-03-27 10:01:49.446962 I | rafthttp: added peer d7b82893c8a47cb2
+2020-03-27 10:01:49.447034 I | etcdserver: starting server... [version: 3.4.4, cluster version: to_be_decided]
+2020-03-27 10:01:49.448536 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.448869 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream Message reader)
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.451684 I | etcdserver/membership: added member 6339d9f226778fea [http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.453591 I | etcdserver/membership: added member 6c21b695f9440199 [http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.453911 I | etcdserver/membership: added member 77589045bfad6f8f [http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.454208 I | etcdserver/membership: added member 7d6abc343529f71b [http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.454598 I | etcdserver/membership: added member 99c1d2c90df9419f [http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6339d9f226778fea switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.454920 I | etcdserver/membership: added member d7b82893c8a47cb2 [http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+2020-03-27 10:01:49.455515 I | embed: listening for peers on [::]:2380
+2020-03-27 10:01:50.040208 I | rafthttp: peer 6c21b695f9440199 became active
+2020-03-27 10:01:50.040413 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:50.040960 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:50.343434 I | rafthttp: peer 77589045bfad6f8f became active
+2020-03-27 10:01:50.343489 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+2020-03-27 10:01:50.344897 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:50.356438 I | etcdserver: 6339d9f226778fea initialized peer connection; fast-forwarding 8 ticks (election ticks 10) with 2 active peer(s)
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea is starting a new election at term 1
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea became candidate at term 2
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea received MsgVoteResp from 6339d9f226778fea at term 2
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea [logterm: 1, index: 6] sent MsgVote request to 6c21b695f9440199 at term 2
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea [logterm: 1, index: 6] sent MsgVote request to 77589045bfad6f8f at term 2
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea [logterm: 1, index: 6] sent MsgVote request to 7d6abc343529f71b at term 2
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea [logterm: 1, index: 6] sent MsgVote request to 99c1d2c90df9419f at term 2
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea [logterm: 1, index: 6] sent MsgVote request to d7b82893c8a47cb2 at term 2
+2020-03-27 10:01:50.367819 I | rafthttp: peer d7b82893c8a47cb2 became active
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea received MsgVoteResp from 77589045bfad6f8f at term 2
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea has received 2 MsgVoteResp votes and 0 vote rejections
+2020-03-27 10:01:50.371368 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message reader)
+2020-03-27 10:01:50.371890 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea received MsgVoteResp from 6c21b695f9440199 at term 2
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea has received 3 MsgVoteResp votes and 0 vote rejections
+2020-03-27 10:01:50.396000 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 writer)
+2020-03-27 10:01:50.396320 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message writer)
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea [logterm: 1, index: 6, vote: 6339d9f226778fea] rejected MsgVote from 7d6abc343529f71b [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.432957 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message writer)
+2020-03-27 10:01:50.435383 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.461842 I | rafthttp: peer 7d6abc343529f71b became active
+2020-03-27 10:01:50.461954 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 writer)
+2020-03-27 10:01:50.462268 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message writer)
+2020-03-27 10:01:50.464341 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 writer)
+2020-03-27 10:01:50.464786 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message writer)
+2020-03-27 10:01:50.469096 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.469124 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message writer)
+2020-03-27 10:01:50.469449 E | rafthttp: failed to dial 99c1d2c90df9419f on stream Message (dial tcp: lookup multichainetcd-5.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.469514 I | rafthttp: peer 99c1d2c90df9419f became inactive (message send to peer failed)
+2020-03-27 10:01:50.472137 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.472214 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.549108 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+2020-03-27 10:01:50.550138 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message reader)
+2020-03-27 10:01:50.567106 E | rafthttp: failed to dial 99c1d2c90df9419f on stream MsgApp v2 (dial tcp: lookup multichainetcd-5.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.567127 I | rafthttp: peer 99c1d2c90df9419f became inactive (message send to peer failed)
+raft2020/03/27 10:01:50 INFO: 6339d9f226778fea [logterm: 1, index: 6, vote: 6339d9f226778fea] rejected MsgVote from 99c1d2c90df9419f [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.761280 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.761503 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+2020-03-27 10:01:50.761606 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message reader)
+raft2020/03/27 10:01:51 INFO: 6339d9f226778fea [term: 2] received a MsgVote message with higher term from 77589045bfad6f8f [term: 3]
+raft2020/03/27 10:01:51 INFO: 6339d9f226778fea became follower at term 3
+raft2020/03/27 10:01:51 INFO: 6339d9f226778fea [logterm: 1, index: 6, vote: 0] cast MsgVote for 77589045bfad6f8f [logterm: 1, index: 6] at term 3
+raft2020/03/27 10:01:51 INFO: raft.node: 6339d9f226778fea elected leader 77589045bfad6f8f at term 3
+2020-03-27 10:01:51.261825 I | etcdserver: published {Name:multichainetcd-0 ClientURLs:[http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2379]} to cluster 233b59b6ef9331ee
+2020-03-27 10:01:51.262063 I | embed: ready to serve client requests
+2020-03-27 10:01:51.263032 N | embed: serving insecure client requests on [::]:2379, this is strongly discouraged!
+2020-03-27 10:01:51.279688 N | etcdserver/membership: set the initial cluster version to 3.4
+2020-03-27 10:01:51.279910 I | etcdserver/api: enabled capabilities for version 3.4
+==> Stored member id: 6339d9f226778fea
+multichainetcd-1
+==> Bash debug is off
+==> Creating data dir...
+==> There is no data at all. Initializing a new member of the cluster...
+2020-03-27 10:01:49.492641 I | pkg/flags: recognized and used environment variable ETCD_ADVERTISE_CLIENT_URLS=http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2379
+2020-03-27 10:01:49.492794 I | pkg/flags: recognized and used environment variable ETCD_DATA_DIR=/opt/bitnami/etcd/data
+2020-03-27 10:01:49.492928 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_ADVERTISE_PEER_URLS=http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380
+2020-03-27 10:01:49.492942 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER=multichainetcd-0=http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-1=http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-2=http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-3=http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-4=http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-5=http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380,
+2020-03-27 10:01:49.492964 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_STATE=new
+2020-03-27 10:01:49.492971 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_TOKEN=etcd-cluster-k8s
+2020-03-27 10:01:49.492991 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
+2020-03-27 10:01:49.493012 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
+2020-03-27 10:01:49.493037 I | pkg/flags: recognized and used environment variable ETCD_NAME=multichainetcd-1
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.493133 I | etcdmain: etcd Version: 3.4.4
+2020-03-27 10:01:49.493138 I | etcdmain: Git SHA: c65a9e2dd
+2020-03-27 10:01:49.493143 I | etcdmain: Go Version: go1.12.12
+2020-03-27 10:01:49.493148 I | etcdmain: Go OS/Arch: linux/amd64
+2020-03-27 10:01:49.493153 I | etcdmain: setting maximum number of CPUs to 2, total number of available CPUs is 2
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.493444 I | embed: name = multichainetcd-1
+2020-03-27 10:01:49.493453 I | embed: data dir = /opt/bitnami/etcd/data
+2020-03-27 10:01:49.493458 I | embed: member dir = /opt/bitnami/etcd/data/member
+2020-03-27 10:01:49.493463 I | embed: heartbeat = 100ms
+2020-03-27 10:01:49.493467 I | embed: election = 1000ms
+2020-03-27 10:01:49.493471 I | embed: snapshot count = 100000
+2020-03-27 10:01:49.493482 I | embed: advertise client URLs = http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2379
+{"level":"info","ts":1585303309.4989223,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.6.3:2380"}
+{"level":"info","ts":1585303309.4990792,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.6.3:2380"}
+2020-03-27 10:01:49.546981 I | etcdserver: starting member 77589045bfad6f8f in cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=()
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f became follower at term 0
+raft2020/03/27 10:01:49 INFO: newRaft 77589045bfad6f8f [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f became follower at term 1
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914)
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713)
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823)
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499)
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343)
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.554889 W | auth: simple token is not cryptographically signed
+2020-03-27 10:01:49.558023 I | rafthttp: starting peer 6339d9f226778fea...
+2020-03-27 10:01:49.558347 I | rafthttp: started HTTP pipelining with peer 6339d9f226778fea
+2020-03-27 10:01:49.566163 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.567005 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.570347 I | rafthttp: started peer 6339d9f226778fea
+2020-03-27 10:01:49.570419 I | rafthttp: added peer 6339d9f226778fea
+2020-03-27 10:01:49.570445 I | rafthttp: starting peer 6c21b695f9440199...
+2020-03-27 10:01:49.570527 I | rafthttp: started HTTP pipelining with peer 6c21b695f9440199
+2020-03-27 10:01:49.579693 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.581272 I | rafthttp: started streaming with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:49.583575 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.584210 I | rafthttp: started streaming with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:49.584538 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.584561 I | rafthttp: started peer 6c21b695f9440199
+2020-03-27 10:01:49.584596 I | rafthttp: added peer 6c21b695f9440199
+2020-03-27 10:01:49.584616 I | rafthttp: starting peer 7d6abc343529f71b...
+2020-03-27 10:01:49.584651 I | rafthttp: started HTTP pipelining with peer 7d6abc343529f71b
+2020-03-27 10:01:49.593987 I | rafthttp: started peer 7d6abc343529f71b
+2020-03-27 10:01:49.594054 I | rafthttp: added peer 7d6abc343529f71b
+2020-03-27 10:01:49.594080 I | rafthttp: starting peer 99c1d2c90df9419f...
+2020-03-27 10:01:49.594115 I | rafthttp: started HTTP pipelining with peer 99c1d2c90df9419f
+2020-03-27 10:01:49.601612 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.601676 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.601736 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+2020-03-27 10:01:49.602164 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream Message reader)
+2020-03-27 10:01:49.604926 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:49.610309 I | rafthttp: started peer 99c1d2c90df9419f
+2020-03-27 10:01:49.610382 I | rafthttp: added peer 99c1d2c90df9419f
+2020-03-27 10:01:49.610412 I | rafthttp: starting peer d7b82893c8a47cb2...
+2020-03-27 10:01:49.610473 I | rafthttp: started HTTP pipelining with peer d7b82893c8a47cb2
+2020-03-27 10:01:49.616990 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.617318 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.617662 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream Message reader)
+2020-03-27 10:01:49.618247 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.619579 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.622127 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.623116 I | rafthttp: started peer d7b82893c8a47cb2
+2020-03-27 10:01:49.623149 I | rafthttp: added peer d7b82893c8a47cb2
+2020-03-27 10:01:49.623179 I | etcdserver: starting server... [version: 3.4.4, cluster version: to_be_decided]
+2020-03-27 10:01:49.628533 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.628894 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream Message reader)
+2020-03-27 10:01:49.635600 I | embed: listening for peers on [::]:2380
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.636281 I | etcdserver/membership: added member 6339d9f226778fea [http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.636623 I | etcdserver/membership: added member 6c21b695f9440199 [http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.636883 I | etcdserver/membership: added member 77589045bfad6f8f [http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.637150 I | etcdserver/membership: added member 7d6abc343529f71b [http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.639734 I | etcdserver/membership: added member 99c1d2c90df9419f [http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 77589045bfad6f8f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.640138 I | etcdserver/membership: added member d7b82893c8a47cb2 [http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+2020-03-27 10:01:50.032322 I | rafthttp: peer 6c21b695f9440199 became active
+2020-03-27 10:01:50.032464 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:50.032525 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:50.339471 I | rafthttp: peer 6339d9f226778fea became active
+2020-03-27 10:01:50.339631 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 writer)
+2020-03-27 10:01:50.339987 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message writer)
+2020-03-27 10:01:50.345729 I | rafthttp: peer d7b82893c8a47cb2 became active
+2020-03-27 10:01:50.345769 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message reader)
+2020-03-27 10:01:50.346061 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+2020-03-27 10:01:50.360436 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message writer)
+2020-03-27 10:01:50.361734 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 writer)
+raft2020/03/27 10:01:50 INFO: 77589045bfad6f8f [term: 1] received a MsgVote message with higher term from 6339d9f226778fea [term: 2]
+raft2020/03/27 10:01:50 INFO: 77589045bfad6f8f became follower at term 2
+raft2020/03/27 10:01:50 INFO: 77589045bfad6f8f [logterm: 1, index: 6, vote: 0] cast MsgVote for 6339d9f226778fea [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.365781 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.365817 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message writer)
+2020-03-27 10:01:50.366531 I | rafthttp: peer 7d6abc343529f71b became active
+2020-03-27 10:01:50.366558 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message writer)
+2020-03-27 10:01:50.367126 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.367654 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 writer)
+2020-03-27 10:01:50.388511 I | etcdserver: 77589045bfad6f8f initialized peer connection; fast-forwarding 8 ticks (election ticks 10) with 5 active peer(s)
+2020-03-27 10:01:50.400722 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message writer)
+2020-03-27 10:01:50.401904 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 writer)
+raft2020/03/27 10:01:50 INFO: 77589045bfad6f8f [logterm: 1, index: 6, vote: 6339d9f226778fea] rejected MsgVote from 7d6abc343529f71b [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.428529 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:50.429208 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:50.437153 E | rafthttp: failed to dial 7d6abc343529f71b on stream MsgApp v2 (dial tcp: lookup multichainetcd-3.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.437180 I | rafthttp: peer 7d6abc343529f71b became inactive (message send to peer failed)
+2020-03-27 10:01:50.440653 E | rafthttp: failed to dial 99c1d2c90df9419f on stream Message (dial tcp: lookup multichainetcd-5.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.440679 I | rafthttp: peer 99c1d2c90df9419f became inactive (message send to peer failed)
+2020-03-27 10:01:50.531702 I | rafthttp: peer 7d6abc343529f71b became active
+2020-03-27 10:01:50.531738 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message reader)
+2020-03-27 10:01:50.535872 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+raft2020/03/27 10:01:50 INFO: 77589045bfad6f8f [logterm: 1, index: 6, vote: 6339d9f226778fea] rejected MsgVote from 99c1d2c90df9419f [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.734811 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.734882 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+2020-03-27 10:01:50.735816 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message reader)
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f is starting a new election at term 2
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f became candidate at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f received MsgVoteResp from 77589045bfad6f8f at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f [logterm: 1, index: 6] sent MsgVote request to 6339d9f226778fea at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f [logterm: 1, index: 6] sent MsgVote request to 6c21b695f9440199 at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f [logterm: 1, index: 6] sent MsgVote request to 7d6abc343529f71b at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f [logterm: 1, index: 6] sent MsgVote request to 99c1d2c90df9419f at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f [logterm: 1, index: 6] sent MsgVote request to d7b82893c8a47cb2 at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f received MsgVoteResp from 6c21b695f9440199 at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f has received 2 MsgVoteResp votes and 0 vote rejections
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f received MsgVoteResp from 7d6abc343529f71b at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f has received 3 MsgVoteResp votes and 0 vote rejections
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f received MsgVoteResp from d7b82893c8a47cb2 at term 3
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f has received 4 MsgVoteResp votes and 0 vote rejections
+raft2020/03/27 10:01:51 INFO: 77589045bfad6f8f became leader at term 3
+raft2020/03/27 10:01:51 INFO: raft.node: 77589045bfad6f8f elected leader 77589045bfad6f8f at term 3
+2020-03-27 10:01:51.256451 I | etcdserver: published {Name:multichainetcd-1 ClientURLs:[http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2379]} to cluster 233b59b6ef9331ee
+2020-03-27 10:01:51.256708 I | embed: ready to serve client requests
+2020-03-27 10:01:51.257819 N | embed: serving insecure client requests on [::]:2379, this is strongly discouraged!
+2020-03-27 10:01:51.271981 I | etcdserver: setting up the initial cluster version to 3.4
+2020-03-27 10:01:51.274076 N | etcdserver/membership: set the initial cluster version to 3.4
+2020-03-27 10:01:51.274164 I | etcdserver/api: enabled capabilities for version 3.4
+==> Stored member id: 77589045bfad6f8f
+multichainetcd-2
+==> Bash debug is off
+==> Creating data dir...
+==> There is no data at all. Initializing a new member of the cluster...
+2020-03-27 10:01:49.654025 I | pkg/flags: recognized and used environment variable ETCD_ADVERTISE_CLIENT_URLS=http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2379
+2020-03-27 10:01:49.654157 I | pkg/flags: recognized and used environment variable ETCD_DATA_DIR=/opt/bitnami/etcd/data
+2020-03-27 10:01:49.654195 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_ADVERTISE_PEER_URLS=http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380
+2020-03-27 10:01:49.654207 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER=multichainetcd-0=http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-1=http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-2=http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-3=http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-4=http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-5=http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380,
+2020-03-27 10:01:49.654214 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_STATE=new
+2020-03-27 10:01:49.654223 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_TOKEN=etcd-cluster-k8s
+2020-03-27 10:01:49.654235 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
+2020-03-27 10:01:49.654245 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
+2020-03-27 10:01:49.654263 I | pkg/flags: recognized and used environment variable ETCD_NAME=multichainetcd-2
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.654344 I | etcdmain: etcd Version: 3.4.4
+2020-03-27 10:01:49.654349 I | etcdmain: Git SHA: c65a9e2dd
+2020-03-27 10:01:49.654354 I | etcdmain: Go Version: go1.12.12
+2020-03-27 10:01:49.654358 I | etcdmain: Go OS/Arch: linux/amd64
+2020-03-27 10:01:49.654363 I | etcdmain: setting maximum number of CPUs to 2, total number of available CPUs is 2
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.654638 I | embed: name = multichainetcd-2
+2020-03-27 10:01:49.654648 I | embed: data dir = /opt/bitnami/etcd/data
+2020-03-27 10:01:49.654653 I | embed: member dir = /opt/bitnami/etcd/data/member
+2020-03-27 10:01:49.654658 I | embed: heartbeat = 100ms
+2020-03-27 10:01:49.654662 I | embed: election = 1000ms
+2020-03-27 10:01:49.654667 I | embed: snapshot count = 100000
+2020-03-27 10:01:49.657313 I | embed: advertise client URLs = http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2379
+{"level":"info","ts":1585303309.664232,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.10.2:2380"}
+{"level":"info","ts":1585303309.6643379,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.10.2:2380"}
+2020-03-27 10:01:49.719413 I | etcdserver: starting member d7b82893c8a47cb2 in cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=()
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 became follower at term 0
+raft2020/03/27 10:01:49 INFO: newRaft d7b82893c8a47cb2 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 became follower at term 1
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914)
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713)
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823)
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499)
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343)
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.726842 W | auth: simple token is not cryptographically signed
+2020-03-27 10:01:49.730581 I | rafthttp: starting peer 6339d9f226778fea...
+2020-03-27 10:01:49.730865 I | rafthttp: started HTTP pipelining with peer 6339d9f226778fea
+2020-03-27 10:01:49.733305 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.734051 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.737604 I | rafthttp: started peer 6339d9f226778fea
+2020-03-27 10:01:49.737786 I | rafthttp: added peer 6339d9f226778fea
+2020-03-27 10:01:49.737944 I | rafthttp: starting peer 6c21b695f9440199...
+2020-03-27 10:01:49.738117 I | rafthttp: started HTTP pipelining with peer 6c21b695f9440199
+2020-03-27 10:01:49.741127 I | rafthttp: started streaming with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:49.741780 I | rafthttp: started streaming with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:49.742785 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.742968 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.743946 I | rafthttp: started peer 6c21b695f9440199
+2020-03-27 10:01:49.744029 I | rafthttp: added peer 6c21b695f9440199
+2020-03-27 10:01:49.744069 I | rafthttp: starting peer 77589045bfad6f8f...
+2020-03-27 10:01:49.744132 I | rafthttp: started HTTP pipelining with peer 77589045bfad6f8f
+2020-03-27 10:01:49.746647 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.748755 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.748900 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.749244 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:49.750966 I | rafthttp: started peer 77589045bfad6f8f
+2020-03-27 10:01:49.751127 I | rafthttp: added peer 77589045bfad6f8f
+2020-03-27 10:01:49.751253 I | rafthttp: starting peer 7d6abc343529f71b...
+2020-03-27 10:01:49.751398 I | rafthttp: started HTTP pipelining with peer 7d6abc343529f71b
+2020-03-27 10:01:49.751881 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.752213 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:49.753220 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.755960 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.757565 I | rafthttp: started peer 7d6abc343529f71b
+2020-03-27 10:01:49.757743 I | rafthttp: added peer 7d6abc343529f71b
+2020-03-27 10:01:49.757882 I | rafthttp: starting peer 99c1d2c90df9419f...
+2020-03-27 10:01:49.757997 I | rafthttp: started HTTP pipelining with peer 99c1d2c90df9419f
+2020-03-27 10:01:49.759085 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+2020-03-27 10:01:49.759436 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream Message reader)
+2020-03-27 10:01:49.762412 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.763082 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.763722 I | rafthttp: started peer 99c1d2c90df9419f
+2020-03-27 10:01:49.763874 I | rafthttp: added peer 99c1d2c90df9419f
+2020-03-27 10:01:49.763985 I | etcdserver: starting server... [version: 3.4.4, cluster version: to_be_decided]
+2020-03-27 10:01:49.767131 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.767455 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream Message reader)
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.772571 I | etcdserver/membership: added member 6339d9f226778fea [http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.772888 I | etcdserver/membership: added member 6c21b695f9440199 [http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.773091 I | etcdserver/membership: added member 77589045bfad6f8f [http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.773350 I | etcdserver/membership: added member 7d6abc343529f71b [http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.773545 I | etcdserver/membership: added member 99c1d2c90df9419f [http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: d7b82893c8a47cb2 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.773827 I | etcdserver/membership: added member d7b82893c8a47cb2 [http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+2020-03-27 10:01:49.774630 I | embed: listening for peers on [::]:2380
+2020-03-27 10:01:50.066168 I | rafthttp: peer 6c21b695f9440199 became active
+2020-03-27 10:01:50.066267 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:50.066330 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:50.350867 I | rafthttp: peer 77589045bfad6f8f became active
+2020-03-27 10:01:50.351209 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message writer)
+2020-03-27 10:01:50.351483 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.365893 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:50.366484 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+raft2020/03/27 10:01:50 INFO: d7b82893c8a47cb2 [term: 1] received a MsgVote message with higher term from 6339d9f226778fea [term: 2]
+raft2020/03/27 10:01:50 INFO: d7b82893c8a47cb2 became follower at term 2
+raft2020/03/27 10:01:50 INFO: d7b82893c8a47cb2 [logterm: 1, index: 6, vote: 0] cast MsgVote for 6339d9f226778fea [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.371474 I | rafthttp: peer 6339d9f226778fea became active
+2020-03-27 10:01:50.371866 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message writer)
+2020-03-27 10:01:50.372110 I | etcdserver: d7b82893c8a47cb2 initialized peer connection; fast-forwarding 8 ticks (election ticks 10) with 3 active peer(s)
+2020-03-27 10:01:50.372549 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 writer)
+2020-03-27 10:01:50.372832 E | rafthttp: failed to write 6339d9f226778fea on pipeline (dial tcp: lookup multichainetcd-0.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.373030 I | rafthttp: peer 6339d9f226778fea became inactive (message send to peer failed)
+2020-03-27 10:01:50.373384 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.373569 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message writer)
+2020-03-27 10:01:50.373674 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.384749 I | rafthttp: peer 7d6abc343529f71b became active
+2020-03-27 10:01:50.384790 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 writer)
+2020-03-27 10:01:50.384986 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message writer)
+2020-03-27 10:01:50.388749 E | rafthttp: failed to dial 7d6abc343529f71b on stream Message (dial tcp: lookup multichainetcd-3.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.388772 I | rafthttp: peer 7d6abc343529f71b became inactive (message send to peer failed)
+2020-03-27 10:01:50.396586 E | rafthttp: failed to dial 99c1d2c90df9419f on stream MsgApp v2 (dial tcp: lookup multichainetcd-5.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.396609 I | rafthttp: peer 99c1d2c90df9419f became inactive (message send to peer failed)
+2020-03-27 10:01:50.414485 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message writer)
+2020-03-27 10:01:50.416336 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 writer)
+raft2020/03/27 10:01:50 INFO: d7b82893c8a47cb2 [logterm: 1, index: 6, vote: 6339d9f226778fea] rejected MsgVote from 7d6abc343529f71b [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.463565 I | rafthttp: peer 6339d9f226778fea became active
+2020-03-27 10:01:50.463595 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:50.465780 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:50.480447 I | rafthttp: peer 7d6abc343529f71b became active
+2020-03-27 10:01:50.480477 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+2020-03-27 10:01:50.482040 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message reader)
+raft2020/03/27 10:01:50 INFO: d7b82893c8a47cb2 [logterm: 1, index: 6, vote: 6339d9f226778fea] rejected MsgVote from 99c1d2c90df9419f [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.783859 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.783892 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+2020-03-27 10:01:50.784726 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message reader)
+raft2020/03/27 10:01:51 INFO: d7b82893c8a47cb2 [term: 2] received a MsgVote message with higher term from 77589045bfad6f8f [term: 3]
+raft2020/03/27 10:01:51 INFO: d7b82893c8a47cb2 became follower at term 3
+raft2020/03/27 10:01:51 INFO: d7b82893c8a47cb2 [logterm: 1, index: 6, vote: 0] cast MsgVote for 77589045bfad6f8f [logterm: 1, index: 6] at term 3
+raft2020/03/27 10:01:51 INFO: raft.node: d7b82893c8a47cb2 elected leader 77589045bfad6f8f at term 3
+2020-03-27 10:01:51.266500 I | etcdserver: published {Name:multichainetcd-2 ClientURLs:[http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2379]} to cluster 233b59b6ef9331ee
+2020-03-27 10:01:51.266555 I | embed: ready to serve client requests
+2020-03-27 10:01:51.270569 N | embed: serving insecure client requests on [::]:2379, this is strongly discouraged!
+2020-03-27 10:01:51.279970 N | etcdserver/membership: set the initial cluster version to 3.4
+2020-03-27 10:01:51.280390 I | etcdserver/api: enabled capabilities for version 3.4
+==> Stored member id: d7b82893c8a47cb2
+multichainetcd-3
+==> Bash debug is off
+==> Creating data dir...
+==> There is no data at all. Initializing a new member of the cluster...
+2020-03-27 10:01:49.648142 I | pkg/flags: recognized and used environment variable ETCD_ADVERTISE_CLIENT_URLS=http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2379
+2020-03-27 10:01:49.648507 I | pkg/flags: recognized and used environment variable ETCD_DATA_DIR=/opt/bitnami/etcd/data
+2020-03-27 10:01:49.648665 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_ADVERTISE_PEER_URLS=http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380
+2020-03-27 10:01:49.648676 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER=multichainetcd-0=http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-1=http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-2=http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-3=http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-4=http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-5=http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380,
+2020-03-27 10:01:49.648684 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_STATE=new
+2020-03-27 10:01:49.648691 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_TOKEN=etcd-cluster-k8s
+2020-03-27 10:01:49.648703 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
+2020-03-27 10:01:49.648831 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
+2020-03-27 10:01:49.648857 I | pkg/flags: recognized and used environment variable ETCD_NAME=multichainetcd-3
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.649055 I | etcdmain: etcd Version: 3.4.4
+2020-03-27 10:01:49.649062 I | etcdmain: Git SHA: c65a9e2dd
+2020-03-27 10:01:49.649183 I | etcdmain: Go Version: go1.12.12
+2020-03-27 10:01:49.649189 I | etcdmain: Go OS/Arch: linux/amd64
+2020-03-27 10:01:49.649194 I | etcdmain: setting maximum number of CPUs to 2, total number of available CPUs is 2
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.649647 I | embed: name = multichainetcd-3
+2020-03-27 10:01:49.649661 I | embed: data dir = /opt/bitnami/etcd/data
+2020-03-27 10:01:49.649667 I | embed: member dir = /opt/bitnami/etcd/data/member
+2020-03-27 10:01:49.649671 I | embed: heartbeat = 100ms
+2020-03-27 10:01:49.649676 I | embed: election = 1000ms
+2020-03-27 10:01:49.649680 I | embed: snapshot count = 100000
+2020-03-27 10:01:49.649698 I | embed: advertise client URLs = http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2379
+{"level":"info","ts":1585303309.6544397,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.8.2:2380"}
+{"level":"info","ts":1585303309.6545599,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.8.2:2380"}
+2020-03-27 10:01:49.701704 I | etcdserver: starting member 7d6abc343529f71b in cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=()
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b became follower at term 0
+raft2020/03/27 10:01:49 INFO: newRaft 7d6abc343529f71b [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b became follower at term 1
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914)
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713)
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823)
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499)
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343)
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.709922 W | auth: simple token is not cryptographically signed
+2020-03-27 10:01:49.712915 I | rafthttp: starting peer 6339d9f226778fea...
+2020-03-27 10:01:49.713024 I | rafthttp: started HTTP pipelining with peer 6339d9f226778fea
+2020-03-27 10:01:49.714382 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.717519 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.723368 I | rafthttp: started peer 6339d9f226778fea
+2020-03-27 10:01:49.723766 I | rafthttp: added peer 6339d9f226778fea
+2020-03-27 10:01:49.723890 I | rafthttp: starting peer 6c21b695f9440199...
+2020-03-27 10:01:49.723943 I | rafthttp: started HTTP pipelining with peer 6c21b695f9440199
+2020-03-27 10:01:49.725437 I | rafthttp: started streaming with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:49.736829 I | rafthttp: started streaming with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:49.737241 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.737316 I | rafthttp: started peer 6c21b695f9440199
+2020-03-27 10:01:49.737407 I | rafthttp: added peer 6c21b695f9440199
+2020-03-27 10:01:49.737487 I | rafthttp: starting peer 77589045bfad6f8f...
+2020-03-27 10:01:49.737544 I | rafthttp: started HTTP pipelining with peer 77589045bfad6f8f
+2020-03-27 10:01:49.738992 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.742945 I | rafthttp: started peer 77589045bfad6f8f
+2020-03-27 10:01:49.743003 I | rafthttp: added peer 77589045bfad6f8f
+2020-03-27 10:01:49.743032 I | rafthttp: starting peer 99c1d2c90df9419f...
+2020-03-27 10:01:49.743086 I | rafthttp: started HTTP pipelining with peer 99c1d2c90df9419f
+2020-03-27 10:01:49.744514 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.746188 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.747035 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:49.747248 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.747340 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.747466 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.748573 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:49.751115 I | rafthttp: started peer 99c1d2c90df9419f
+2020-03-27 10:01:49.751241 I | rafthttp: added peer 99c1d2c90df9419f
+2020-03-27 10:01:49.751318 I | rafthttp: starting peer d7b82893c8a47cb2...
+2020-03-27 10:01:49.751463 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.751687 I | rafthttp: started HTTP pipelining with peer d7b82893c8a47cb2
+2020-03-27 10:01:49.752069 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream Message reader)
+2020-03-27 10:01:49.754729 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.755070 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.755441 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.757863 I | rafthttp: started peer d7b82893c8a47cb2
+2020-03-27 10:01:49.757921 I | rafthttp: added peer d7b82893c8a47cb2
+2020-03-27 10:01:49.757965 I | etcdserver: starting server... [version: 3.4.4, cluster version: to_be_decided]
+2020-03-27 10:01:49.765424 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.765995 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream Message reader)
+2020-03-27 10:01:49.766602 I | embed: listening for peers on [::]:2380
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.768673 I | etcdserver/membership: added member 6339d9f226778fea [http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.769244 I | etcdserver/membership: added member 6c21b695f9440199 [http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.771459 I | etcdserver/membership: added member 77589045bfad6f8f [http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.771846 I | etcdserver/membership: added member 7d6abc343529f71b [http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.772259 I | etcdserver/membership: added member 99c1d2c90df9419f [http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 7d6abc343529f71b switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.772765 I | etcdserver/membership: added member d7b82893c8a47cb2 [http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+2020-03-27 10:01:50.071252 I | rafthttp: peer 6c21b695f9440199 became active
+2020-03-27 10:01:50.071290 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:50.071332 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:50.371173 I | rafthttp: peer 77589045bfad6f8f became active
+2020-03-27 10:01:50.371397 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:50.371533 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+2020-03-27 10:01:50.383233 I | rafthttp: peer d7b82893c8a47cb2 became active
+2020-03-27 10:01:50.383473 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+2020-03-27 10:01:50.384303 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message reader)
+2020-03-27 10:01:50.420335 I | etcdserver: 7d6abc343529f71b initialized peer connection; fast-forwarding 8 ticks (election ticks 10) with 3 active peer(s)
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b is starting a new election at term 1
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b became candidate at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b received MsgVoteResp from 7d6abc343529f71b at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b [logterm: 1, index: 6] sent MsgVote request to 6339d9f226778fea at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b [logterm: 1, index: 6] sent MsgVote request to 6c21b695f9440199 at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b [logterm: 1, index: 6] sent MsgVote request to 77589045bfad6f8f at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b [logterm: 1, index: 6] sent MsgVote request to 99c1d2c90df9419f at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b [logterm: 1, index: 6] sent MsgVote request to d7b82893c8a47cb2 at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b received MsgVoteResp rejection from 77589045bfad6f8f at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b has received 1 MsgVoteResp votes and 1 vote rejections
+2020-03-27 10:01:50.426561 I | rafthttp: peer 6339d9f226778fea became active
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b received MsgVoteResp rejection from d7b82893c8a47cb2 at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b has received 1 MsgVoteResp votes and 2 vote rejections
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b received MsgVoteResp rejection from 6c21b695f9440199 at term 2
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b has received 1 MsgVoteResp votes and 3 vote rejections
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b became follower at term 2
+2020-03-27 10:01:50.461158 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:50.462872 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:50.477188 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.477295 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message writer)
+2020-03-27 10:01:50.478808 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.480708 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 writer)
+2020-03-27 10:01:50.480956 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message writer)
+2020-03-27 10:01:50.487069 E | rafthttp: failed to dial 99c1d2c90df9419f on stream Message (dial tcp: lookup multichainetcd-5.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.487136 I | rafthttp: peer 99c1d2c90df9419f became inactive (message send to peer failed)
+2020-03-27 10:01:50.509808 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message writer)
+2020-03-27 10:01:50.510896 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 writer)
+2020-03-27 10:01:50.536065 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message writer)
+2020-03-27 10:01:50.542148 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.549601 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 writer)
+2020-03-27 10:01:50.549820 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message writer)
+raft2020/03/27 10:01:50 INFO: 7d6abc343529f71b [logterm: 1, index: 6, vote: 7d6abc343529f71b] rejected MsgVote from 99c1d2c90df9419f [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.778013 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.778189 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message reader)
+2020-03-27 10:01:50.778272 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+raft2020/03/27 10:01:51 INFO: 7d6abc343529f71b [term: 2] received a MsgVote message with higher term from 77589045bfad6f8f [term: 3]
+raft2020/03/27 10:01:51 INFO: 7d6abc343529f71b became follower at term 3
+raft2020/03/27 10:01:51 INFO: 7d6abc343529f71b [logterm: 1, index: 6, vote: 0] cast MsgVote for 77589045bfad6f8f [logterm: 1, index: 6] at term 3
+raft2020/03/27 10:01:51 INFO: raft.node: 7d6abc343529f71b elected leader 77589045bfad6f8f at term 3
+2020-03-27 10:01:51.261764 I | etcdserver: published {Name:multichainetcd-3 ClientURLs:[http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2379]} to cluster 233b59b6ef9331ee
+2020-03-27 10:01:51.262063 I | embed: ready to serve client requests
+2020-03-27 10:01:51.263855 N | embed: serving insecure client requests on [::]:2379, this is strongly discouraged!
+2020-03-27 10:01:51.279098 N | etcdserver/membership: set the initial cluster version to 3.4
+2020-03-27 10:01:51.279406 I | etcdserver/api: enabled capabilities for version 3.4
+==> Stored member id: 7d6abc343529f71b
+multichainetcd-4
+==> Bash debug is off
+==> Creating data dir...
+==> There is no data at all. Initializing a new member of the cluster...
+2020-03-27 10:01:49.784376 I | pkg/flags: recognized and used environment variable ETCD_ADVERTISE_CLIENT_URLS=http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2379
+2020-03-27 10:01:49.784560 I | pkg/flags: recognized and used environment variable ETCD_DATA_DIR=/opt/bitnami/etcd/data
+2020-03-27 10:01:49.784640 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_ADVERTISE_PEER_URLS=http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380
+2020-03-27 10:01:49.784649 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER=multichainetcd-0=http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-1=http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-2=http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-3=http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-4=http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-5=http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380,
+2020-03-27 10:01:49.784661 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_STATE=new
+2020-03-27 10:01:49.784667 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_TOKEN=etcd-cluster-k8s
+2020-03-27 10:01:49.784677 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
+2020-03-27 10:01:49.784687 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
+2020-03-27 10:01:49.784704 I | pkg/flags: recognized and used environment variable ETCD_NAME=multichainetcd-4
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.784788 I | etcdmain: etcd Version: 3.4.4
+2020-03-27 10:01:49.784794 I | etcdmain: Git SHA: c65a9e2dd
+2020-03-27 10:01:49.784799 I | etcdmain: Go Version: go1.12.12
+2020-03-27 10:01:49.784804 I | etcdmain: Go OS/Arch: linux/amd64
+2020-03-27 10:01:49.784809 I | etcdmain: setting maximum number of CPUs to 2, total number of available CPUs is 2
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.785124 I | embed: name = multichainetcd-4
+2020-03-27 10:01:49.785133 I | embed: data dir = /opt/bitnami/etcd/data
+2020-03-27 10:01:49.785143 I | embed: member dir = /opt/bitnami/etcd/data/member
+2020-03-27 10:01:49.785149 I | embed: heartbeat = 100ms
+2020-03-27 10:01:49.785154 I | embed: election = 1000ms
+2020-03-27 10:01:49.785159 I | embed: snapshot count = 100000
+2020-03-27 10:01:49.785172 I | embed: advertise client URLs = http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2379
+{"level":"info","ts":1585303309.7904325,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.7.2:2380"}
+{"level":"info","ts":1585303309.7905495,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.7.2:2380"}
+2020-03-27 10:01:49.860990 I | etcdserver: starting member 6c21b695f9440199 in cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=()
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 became follower at term 0
+raft2020/03/27 10:01:49 INFO: newRaft 6c21b695f9440199 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 became follower at term 1
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914)
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713)
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823)
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499)
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343)
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.867614 W | auth: simple token is not cryptographically signed
+2020-03-27 10:01:49.870672 I | rafthttp: starting peer 6339d9f226778fea...
+2020-03-27 10:01:49.870741 I | rafthttp: started HTTP pipelining with peer 6339d9f226778fea
+2020-03-27 10:01:49.872350 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.873408 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.873612 I | rafthttp: started streaming with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:49.873837 I | rafthttp: started streaming with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:49.874012 I | rafthttp: started peer 6339d9f226778fea
+2020-03-27 10:01:49.874165 I | rafthttp: added peer 6339d9f226778fea
+2020-03-27 10:01:49.874275 I | rafthttp: starting peer 77589045bfad6f8f...
+2020-03-27 10:01:49.874444 I | rafthttp: started HTTP pipelining with peer 77589045bfad6f8f
+2020-03-27 10:01:49.875622 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.876557 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.878190 I | rafthttp: started peer 77589045bfad6f8f
+2020-03-27 10:01:49.878385 I | rafthttp: added peer 77589045bfad6f8f
+2020-03-27 10:01:49.878498 I | rafthttp: starting peer 7d6abc343529f71b...
+2020-03-27 10:01:49.878691 I | rafthttp: started HTTP pipelining with peer 7d6abc343529f71b
+2020-03-27 10:01:49.879649 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:49.879911 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.879944 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.881407 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.883700 I | rafthttp: started peer 7d6abc343529f71b
+2020-03-27 10:01:49.883752 I | rafthttp: added peer 7d6abc343529f71b
+2020-03-27 10:01:49.883775 I | rafthttp: starting peer 99c1d2c90df9419f...
+2020-03-27 10:01:49.883824 I | rafthttp: started HTTP pipelining with peer 99c1d2c90df9419f
+2020-03-27 10:01:49.886081 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+2020-03-27 10:01:49.887312 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream Message reader)
+2020-03-27 10:01:49.887767 I | rafthttp: started peer 99c1d2c90df9419f
+2020-03-27 10:01:49.887944 I | rafthttp: added peer 99c1d2c90df9419f
+2020-03-27 10:01:49.888148 I | rafthttp: starting peer d7b82893c8a47cb2...
+2020-03-27 10:01:49.888264 I | rafthttp: started HTTP pipelining with peer d7b82893c8a47cb2
+2020-03-27 10:01:49.889142 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream Message reader)
+2020-03-27 10:01:49.889540 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.889573 I | rafthttp: started streaming with peer 99c1d2c90df9419f (writer)
+2020-03-27 10:01:49.889613 I | rafthttp: started streaming with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.889794 I | rafthttp: started peer d7b82893c8a47cb2
+2020-03-27 10:01:49.889958 I | rafthttp: added peer d7b82893c8a47cb2
+2020-03-27 10:01:49.890108 I | etcdserver: starting server... [version: 3.4.4, cluster version: to_be_decided]
+2020-03-27 10:01:49.890480 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.891496 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.891589 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.900221 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream Message reader)
+2020-03-27 10:01:49.901758 I | embed: listening for peers on [::]:2380
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.903413 I | etcdserver/membership: added member 6339d9f226778fea [http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.903785 I | etcdserver/membership: added member 6c21b695f9440199 [http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.904111 I | etcdserver/membership: added member 77589045bfad6f8f [http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.908874 I | etcdserver/membership: added member 7d6abc343529f71b [http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.909371 I | etcdserver/membership: added member 99c1d2c90df9419f [http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 6c21b695f9440199 switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.909931 I | etcdserver/membership: added member d7b82893c8a47cb2 [http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+2020-03-27 10:01:50.037030 I | rafthttp: peer 77589045bfad6f8f became active
+2020-03-27 10:01:50.038030 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message writer)
+2020-03-27 10:01:50.038192 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.040370 I | rafthttp: peer 6339d9f226778fea became active
+2020-03-27 10:01:50.040453 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 writer)
+2020-03-27 10:01:50.041421 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message writer)
+2020-03-27 10:01:50.052630 I | etcdserver: 6c21b695f9440199 initialized peer connection; fast-forwarding 8 ticks (election ticks 10) with 2 active peer(s)
+2020-03-27 10:01:50.065499 I | rafthttp: peer d7b82893c8a47cb2 became active
+2020-03-27 10:01:50.065757 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message writer)
+2020-03-27 10:01:50.065929 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 writer)
+2020-03-27 10:01:50.071373 I | rafthttp: peer 7d6abc343529f71b became active
+2020-03-27 10:01:50.071688 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message writer)
+2020-03-27 10:01:50.071768 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 writer)
+2020-03-27 10:01:50.072013 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.072148 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message writer)
+2020-03-27 10:01:50.072166 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.100457 E | rafthttp: failed to dial 6339d9f226778fea on stream MsgApp v2 (dial tcp: lookup multichainetcd-0.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.100635 I | rafthttp: peer 6339d9f226778fea became inactive (message send to peer failed)
+2020-03-27 10:01:50.110419 E | rafthttp: failed to dial 77589045bfad6f8f on stream MsgApp v2 (dial tcp: lookup multichainetcd-1.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.110521 I | rafthttp: peer 77589045bfad6f8f became inactive (message send to peer failed)
+2020-03-27 10:01:50.115391 E | rafthttp: failed to dial 7d6abc343529f71b on stream MsgApp v2 (dial tcp: lookup multichainetcd-3.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.115473 I | rafthttp: peer 7d6abc343529f71b became inactive (message send to peer failed)
+2020-03-27 10:01:50.118443 E | rafthttp: failed to dial d7b82893c8a47cb2 on stream Message (dial tcp: lookup multichainetcd-2.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.118590 I | rafthttp: peer d7b82893c8a47cb2 became inactive (message send to peer failed)
+2020-03-27 10:01:50.118988 E | rafthttp: failed to dial 99c1d2c90df9419f on stream Message (dial tcp: lookup multichainetcd-5.multichainetcd-headless.default.svc.cluster.local on 10.0.16.10:53: no such host)
+2020-03-27 10:01:50.119115 I | rafthttp: peer 99c1d2c90df9419f became inactive (message send to peer failed)
+raft2020/03/27 10:01:50 INFO: 6c21b695f9440199 [term: 1] received a MsgVote message with higher term from 6339d9f226778fea [term: 2]
+raft2020/03/27 10:01:50 INFO: 6c21b695f9440199 became follower at term 2
+raft2020/03/27 10:01:50 INFO: 6c21b695f9440199 [logterm: 1, index: 6, vote: 0] cast MsgVote for 6339d9f226778fea [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.395737 I | rafthttp: peer 6339d9f226778fea became active
+2020-03-27 10:01:50.395845 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:50.396747 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:50.405804 I | rafthttp: peer 77589045bfad6f8f became active
+2020-03-27 10:01:50.406050 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:50.406203 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+2020-03-27 10:01:50.414559 I | rafthttp: peer d7b82893c8a47cb2 became active
+2020-03-27 10:01:50.414893 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+2020-03-27 10:01:50.415063 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message reader)
+raft2020/03/27 10:01:50 INFO: 6c21b695f9440199 [logterm: 1, index: 6, vote: 6339d9f226778fea] rejected MsgVote from 7d6abc343529f71b [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.510466 I | rafthttp: peer 7d6abc343529f71b became active
+2020-03-27 10:01:50.510597 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message reader)
+2020-03-27 10:01:50.510706 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+raft2020/03/27 10:01:50 INFO: 6c21b695f9440199 [logterm: 1, index: 6, vote: 6339d9f226778fea] rejected MsgVote from 99c1d2c90df9419f [logterm: 1, index: 6] at term 2
+2020-03-27 10:01:50.814924 I | rafthttp: peer 99c1d2c90df9419f became active
+2020-03-27 10:01:50.815038 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream MsgApp v2 reader)
+2020-03-27 10:01:50.815114 I | rafthttp: established a TCP streaming connection with peer 99c1d2c90df9419f (stream Message reader)
+raft2020/03/27 10:01:51 INFO: 6c21b695f9440199 [term: 2] received a MsgVote message with higher term from 77589045bfad6f8f [term: 3]
+raft2020/03/27 10:01:51 INFO: 6c21b695f9440199 became follower at term 3
+raft2020/03/27 10:01:51 INFO: 6c21b695f9440199 [logterm: 1, index: 6, vote: 0] cast MsgVote for 77589045bfad6f8f [logterm: 1, index: 6] at term 3
+raft2020/03/27 10:01:51 INFO: raft.node: 6c21b695f9440199 elected leader 77589045bfad6f8f at term 3
+2020-03-27 10:01:51.262246 I | etcdserver: published {Name:multichainetcd-4 ClientURLs:[http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2379]} to cluster 233b59b6ef9331ee
+2020-03-27 10:01:51.262402 I | embed: ready to serve client requests
+2020-03-27 10:01:51.263917 N | embed: serving insecure client requests on [::]:2379, this is strongly discouraged!
+2020-03-27 10:01:51.279817 N | etcdserver/membership: set the initial cluster version to 3.4
+2020-03-27 10:01:51.280118 I | etcdserver/api: enabled capabilities for version 3.4
+==> Stored member id: 6c21b695f9440199
+multichainetcd-5
+==> Bash debug is off
+==> Creating data dir...
+==> There is no data at all. Initializing a new member of the cluster...
+2020-03-27 10:01:49.675328 I | pkg/flags: recognized and used environment variable ETCD_ADVERTISE_CLIENT_URLS=http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2379
+2020-03-27 10:01:49.675450 I | pkg/flags: recognized and used environment variable ETCD_DATA_DIR=/opt/bitnami/etcd/data
+2020-03-27 10:01:49.675506 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_ADVERTISE_PEER_URLS=http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380
+2020-03-27 10:01:49.675515 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER=multichainetcd-0=http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-1=http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-2=http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-3=http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-4=http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380,multichainetcd-5=http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380,
+2020-03-27 10:01:49.675525 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_STATE=new
+2020-03-27 10:01:49.675531 I | pkg/flags: recognized and used environment variable ETCD_INITIAL_CLUSTER_TOKEN=etcd-cluster-k8s
+2020-03-27 10:01:49.675541 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
+2020-03-27 10:01:49.675556 I | pkg/flags: recognized and used environment variable ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
+2020-03-27 10:01:49.675580 I | pkg/flags: recognized and used environment variable ETCD_NAME=multichainetcd-5
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.675664 I | etcdmain: etcd Version: 3.4.4
+2020-03-27 10:01:49.675669 I | etcdmain: Git SHA: c65a9e2dd
+2020-03-27 10:01:49.675674 I | etcdmain: Go Version: go1.12.12
+2020-03-27 10:01:49.675679 I | etcdmain: Go OS/Arch: linux/amd64
+2020-03-27 10:01:49.675684 I | etcdmain: setting maximum number of CPUs to 2, total number of available CPUs is 2
+[WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+2020-03-27 10:01:49.675957 I | embed: name = multichainetcd-5
+2020-03-27 10:01:49.675965 I | embed: data dir = /opt/bitnami/etcd/data
+2020-03-27 10:01:49.675974 I | embed: member dir = /opt/bitnami/etcd/data/member
+2020-03-27 10:01:49.675979 I | embed: heartbeat = 100ms
+2020-03-27 10:01:49.675983 I | embed: election = 1000ms
+2020-03-27 10:01:49.675987 I | embed: snapshot count = 100000
+2020-03-27 10:01:49.675998 I | embed: advertise client URLs = http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2379
+{"level":"info","ts":1585303309.6839752,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.11.2:2380"}
+{"level":"info","ts":1585303309.684093,"caller":"netutil/netutil.go:112","msg":"resolved URL Host","url":"http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380","host":"multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380","resolved-addr":"10.16.11.2:2380"}
+2020-03-27 10:01:49.729820 I | etcdserver: starting member 99c1d2c90df9419f in cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=()
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f became follower at term 0
+raft2020/03/27 10:01:49 INFO: newRaft 99c1d2c90df9419f [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f became follower at term 1
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914)
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713)
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823)
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499)
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343)
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.736608 W | auth: simple token is not cryptographically signed
+2020-03-27 10:01:49.739609 I | rafthttp: starting peer 6339d9f226778fea...
+2020-03-27 10:01:49.739704 I | rafthttp: started HTTP pipelining with peer 6339d9f226778fea
+2020-03-27 10:01:49.741696 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.744438 I | rafthttp: started streaming with peer 6339d9f226778fea (writer)
+2020-03-27 10:01:49.744938 I | rafthttp: started peer 6339d9f226778fea
+2020-03-27 10:01:49.744988 I | rafthttp: added peer 6339d9f226778fea
+2020-03-27 10:01:49.745019 I | rafthttp: starting peer 6c21b695f9440199...
+2020-03-27 10:01:49.745046 I | rafthttp: started HTTP pipelining with peer 6c21b695f9440199
+2020-03-27 10:01:49.745835 I | rafthttp: started streaming with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:49.745948 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.746274 I | rafthttp: started streaming with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:49.747443 I | rafthttp: started streaming with peer 6c21b695f9440199 (writer)
+2020-03-27 10:01:49.748346 I | rafthttp: started peer 6c21b695f9440199
+2020-03-27 10:01:49.748387 I | rafthttp: added peer 6c21b695f9440199
+2020-03-27 10:01:49.748404 I | rafthttp: starting peer 77589045bfad6f8f...
+2020-03-27 10:01:49.748434 I | rafthttp: started HTTP pipelining with peer 77589045bfad6f8f
+2020-03-27 10:01:49.749081 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.749808 I | rafthttp: started streaming with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:49.750112 I | rafthttp: started peer 77589045bfad6f8f
+2020-03-27 10:01:49.750183 I | rafthttp: added peer 77589045bfad6f8f
+2020-03-27 10:01:49.750202 I | rafthttp: starting peer 7d6abc343529f71b...
+2020-03-27 10:01:49.750297 I | rafthttp: started HTTP pipelining with peer 7d6abc343529f71b
+2020-03-27 10:01:49.751173 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+2020-03-27 10:01:49.751437 I | rafthttp: started peer 7d6abc343529f71b
+2020-03-27 10:01:49.751506 I | rafthttp: added peer 7d6abc343529f71b
+2020-03-27 10:01:49.751534 I | rafthttp: starting peer d7b82893c8a47cb2...
+2020-03-27 10:01:49.751602 I | rafthttp: started HTTP pipelining with peer d7b82893c8a47cb2
+2020-03-27 10:01:49.751776 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.751879 I | rafthttp: started streaming with peer 77589045bfad6f8f (writer)
+2020-03-27 10:01:49.752097 I | rafthttp: started streaming with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:49.752329 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.752435 I | rafthttp: started streaming with peer 7d6abc343529f71b (writer)
+2020-03-27 10:01:49.752822 I | rafthttp: started peer d7b82893c8a47cb2
+2020-03-27 10:01:49.752878 I | rafthttp: added peer d7b82893c8a47cb2
+2020-03-27 10:01:49.752904 I | etcdserver: starting server... [version: 3.4.4, cluster version: to_be_decided]
+2020-03-27 10:01:49.753111 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+2020-03-27 10:01:49.753440 I | rafthttp: started streaming with peer 7d6abc343529f71b (stream Message reader)
+2020-03-27 10:01:49.754416 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.754575 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (writer)
+2020-03-27 10:01:49.754714 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+2020-03-27 10:01:49.755890 I | rafthttp: started streaming with peer d7b82893c8a47cb2 (stream Message reader)
+2020-03-27 10:01:49.760675 I | embed: listening for peers on [::]:2380
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.762714 I | etcdserver/membership: added member 6339d9f226778fea [http://multichainetcd-0.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.763103 I | etcdserver/membership: added member 6c21b695f9440199 [http://multichainetcd-4.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.763412 I | etcdserver/membership: added member 77589045bfad6f8f [http://multichainetcd-1.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.763780 I | etcdserver/membership: added member 7d6abc343529f71b [http://multichainetcd-3.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.764090 I | etcdserver/membership: added member 99c1d2c90df9419f [http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+raft2020/03/27 10:01:49 INFO: 99c1d2c90df9419f switched to configuration voters=(7149985517478055914 7791709585576034713 8599782117706919823 9037242534688585499 11079368319272829343 15544218729060793522)
+2020-03-27 10:01:49.764411 I | etcdserver/membership: added member d7b82893c8a47cb2 [http://multichainetcd-2.multichainetcd-headless.default.svc.cluster.local:2380] to cluster 233b59b6ef9331ee
+2020-03-27 10:01:50.072065 I | rafthttp: peer 6c21b695f9440199 became active
+2020-03-27 10:01:50.072159 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message reader)
+2020-03-27 10:01:50.072254 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 reader)
+2020-03-27 10:01:50.371014 I | rafthttp: peer 77589045bfad6f8f became active
+2020-03-27 10:01:50.371051 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 reader)
+2020-03-27 10:01:50.371203 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message reader)
+2020-03-27 10:01:50.372232 I | rafthttp: peer d7b82893c8a47cb2 became active
+2020-03-27 10:01:50.372260 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 reader)
+2020-03-27 10:01:50.373005 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message reader)
+2020-03-27 10:01:50.420491 I | etcdserver: 99c1d2c90df9419f initialized peer connection; fast-forwarding 8 ticks (election ticks 10) with 3 active peer(s)
+2020-03-27 10:01:50.469288 I | rafthttp: peer 6339d9f226778fea became active
+2020-03-27 10:01:50.469410 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message reader)
+2020-03-27 10:01:50.469613 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 reader)
+2020-03-27 10:01:50.477713 I | rafthttp: peer 7d6abc343529f71b became active
+2020-03-27 10:01:50.477763 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message reader)
+2020-03-27 10:01:50.478152 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 reader)
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f is starting a new election at term 1
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f became candidate at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f received MsgVoteResp from 99c1d2c90df9419f at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f [logterm: 1, index: 6] sent MsgVote request to 6339d9f226778fea at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f [logterm: 1, index: 6] sent MsgVote request to 6c21b695f9440199 at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f [logterm: 1, index: 6] sent MsgVote request to 77589045bfad6f8f at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f [logterm: 1, index: 6] sent MsgVote request to 7d6abc343529f71b at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f [logterm: 1, index: 6] sent MsgVote request to d7b82893c8a47cb2 at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f received MsgVoteResp rejection from 7d6abc343529f71b at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f has received 1 MsgVoteResp votes and 1 vote rejections
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f received MsgVoteResp rejection from d7b82893c8a47cb2 at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f has received 1 MsgVoteResp votes and 2 vote rejections
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f received MsgVoteResp rejection from 6c21b695f9440199 at term 2
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f has received 1 MsgVoteResp votes and 3 vote rejections
+raft2020/03/27 10:01:50 INFO: 99c1d2c90df9419f became follower at term 2
+2020-03-27 10:01:50.739438 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream MsgApp v2 writer)
+2020-03-27 10:01:50.739712 I | rafthttp: established a TCP streaming connection with peer 77589045bfad6f8f (stream Message writer)
+2020-03-27 10:01:50.761035 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream MsgApp v2 writer)
+2020-03-27 10:01:50.761265 I | rafthttp: established a TCP streaming connection with peer 6339d9f226778fea (stream Message writer)
+2020-03-27 10:01:50.778038 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream Message writer)
+2020-03-27 10:01:50.778066 I | rafthttp: established a TCP streaming connection with peer 7d6abc343529f71b (stream MsgApp v2 writer)
+2020-03-27 10:01:50.783098 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream MsgApp v2 writer)
+2020-03-27 10:01:50.783130 I | rafthttp: established a TCP streaming connection with peer d7b82893c8a47cb2 (stream Message writer)
+2020-03-27 10:01:50.814411 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream Message writer)
+2020-03-27 10:01:50.814500 I | rafthttp: established a TCP streaming connection with peer 6c21b695f9440199 (stream MsgApp v2 writer)
+raft2020/03/27 10:01:51 INFO: 99c1d2c90df9419f [term: 2] received a MsgVote message with higher term from 77589045bfad6f8f [term: 3]
+raft2020/03/27 10:01:51 INFO: 99c1d2c90df9419f became follower at term 3
+raft2020/03/27 10:01:51 INFO: 99c1d2c90df9419f [logterm: 1, index: 6, vote: 0] cast MsgVote for 77589045bfad6f8f [logterm: 1, index: 6] at term 3
+raft2020/03/27 10:01:51 INFO: raft.node: 99c1d2c90df9419f elected leader 77589045bfad6f8f at term 3
+2020-03-27 10:01:51.265278 I | etcdserver: published {Name:multichainetcd-5 ClientURLs:[http://multichainetcd-5.multichainetcd-headless.default.svc.cluster.local:2379]} to cluster 233b59b6ef9331ee
+2020-03-27 10:01:51.265648 I | embed: ready to serve client requests
+2020-03-27 10:01:51.266571 N | embed: serving insecure client requests on [::]:2379, this is strongly discouraged!
+2020-03-27 10:01:51.279051 N | etcdserver/membership: set the initial cluster version to 3.4
+2020-03-27 10:01:51.279420 I | etcdserver/api: enabled capabilities for version 3.4
+==> Stored member id: 99c1d2c90df9419f

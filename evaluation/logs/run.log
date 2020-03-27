@@ -1,0 +1,576 @@
+start run all
+mkdir: ./benchmarks/tmp: File exists
+NAME: multichainetcd
+LAST DEPLOYED: Fri Mar 27 00:43:51 2020
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+** Please be patient while the chart is being deployed **
+
+etcd can be accessed via port 2379 on the following DNS name from within your cluster:
+
+    multichainetcd.default.svc.cluster.local
+
+To set a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=multichainetcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl put /message Hello
+
+To get a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=multichainetcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl get /message
+
+To connect to your etcd server from outside the cluster execute the following commands:
+
+    kubectl port-forward --namespace default svc/multichainetcd 2379:2379 &
+    echo "etcd URL: http://127.0.0.1:2379"
+bash: multichainetcd: command not found
+command terminated with exit code 127
+statefulset.apps/multichain created
+service/multichain created
+service/multichain-headless created
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: fotb-3
+Error from server (NotFound): pods "etcd-0" not found
+Error from server (NotFound): pods "etcd-0" not found
+job.batch/broadcast created
+job.batch "broadcast" deleted
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: totb-3
+Error from server (NotFound): pods "etcd-0" not found
+Error from server (NotFound): pods "etcd-0" not found
+job.batch/broadcast created
+job.batch "broadcast" deleted
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: htlltb-3
+NAME: etcd
+LAST DEPLOYED: Fri Mar 27 01:08:17 2020
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+** Please be patient while the chart is being deployed **
+
+etcd can be accessed via port 2379 on the following DNS name from within your cluster:
+
+    etcd.default.svc.cluster.local
+
+To set a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl put /message Hello
+
+To get a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl get /message
+
+To connect to your etcd server from outside the cluster execute the following commands:
+
+    kubectl port-forward --namespace default svc/etcd 2379:2379 &
+    echo "etcd URL: http://127.0.0.1:2379"
+compacted revision 1
+job.batch/broadcast created
+job.batch "broadcast" deleted
+release "etcd" uninstalled
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: htlltbtest-3
+NAME: etcd
+LAST DEPLOYED: Fri Mar 27 01:19:40 2020
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+** Please be patient while the chart is being deployed **
+
+etcd can be accessed via port 2379 on the following DNS name from within your cluster:
+
+    etcd.default.svc.cluster.local
+
+To set a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl put /message Hello
+
+To get a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl get /message
+
+To connect to your etcd server from outside the cluster execute the following commands:
+
+    kubectl port-forward --namespace default svc/etcd 2379:2379 &
+    echo "etcd URL: http://127.0.0.1:2379"
+compacted revision 1
+job.batch/broadcast created
+job.batch "broadcast" deleted
+release "etcd" uninstalled
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: fotb-6
+Error from server (NotFound): pods "etcd-0" not found
+Error from server (NotFound): pods "etcd-0" not found
+job.batch/broadcast created
+job.batch "broadcast" deleted
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: totb-6
+Error from server (NotFound): pods "etcd-0" not found
+Error from server (NotFound): pods "etcd-0" not found
+job.batch/broadcast created
+job.batch "broadcast" deleted
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: htlltb-6
+NAME: etcd
+LAST DEPLOYED: Fri Mar 27 01:47:25 2020
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+** Please be patient while the chart is being deployed **
+
+etcd can be accessed via port 2379 on the following DNS name from within your cluster:
+
+    etcd.default.svc.cluster.local
+
+To set a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl put /message Hello
+
+To get a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl get /message
+
+To connect to your etcd server from outside the cluster execute the following commands:
+
+    kubectl port-forward --namespace default svc/etcd 2379:2379 &
+    echo "etcd URL: http://127.0.0.1:2379"
+compacted revision 1
+job.batch/broadcast created
+job.batch "broadcast" deleted
+release "etcd" uninstalled
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: htlltbtest-6
+NAME: etcd
+LAST DEPLOYED: Fri Mar 27 01:58:49 2020
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+** Please be patient while the chart is being deployed **
+
+etcd can be accessed via port 2379 on the following DNS name from within your cluster:
+
+    etcd.default.svc.cluster.local
+
+To set a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl put /message Hello
+
+To get a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl get /message
+
+To connect to your etcd server from outside the cluster execute the following commands:
+
+    kubectl port-forward --namespace default svc/etcd 2379:2379 &
+    echo "etcd URL: http://127.0.0.1:2379"
+compacted revision 1
+job.batch/broadcast created
+job.batch "broadcast" deleted
+release "etcd" uninstalled
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: fotb-9
+Error from server (NotFound): pods "etcd-0" not found
+Error from server (NotFound): pods "etcd-0" not found
+job.batch/broadcast created
+job.batch "broadcast" deleted
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: totb-9
+Error from server (NotFound): pods "etcd-0" not found
+Error from server (NotFound): pods "etcd-0" not found
+job.batch/broadcast created
+job.batch "broadcast" deleted
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: htlltb-9
+NAME: etcd
+LAST DEPLOYED: Fri Mar 27 02:26:32 2020
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+** Please be patient while the chart is being deployed **
+
+etcd can be accessed via port 2379 on the following DNS name from within your cluster:
+
+    etcd.default.svc.cluster.local
+
+To set a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl put /message Hello
+
+To get a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl get /message
+
+To connect to your etcd server from outside the cluster execute the following commands:
+
+    kubectl port-forward --namespace default svc/etcd 2379:2379 &
+    echo "etcd URL: http://127.0.0.1:2379"
+compacted revision 1
+job.batch/broadcast created
+job.batch "broadcast" deleted
+release "etcd" uninstalled
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: htlltbtest-9
+NAME: etcd
+LAST DEPLOYED: Fri Mar 27 02:37:58 2020
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+** Please be patient while the chart is being deployed **
+
+etcd can be accessed via port 2379 on the following DNS name from within your cluster:
+
+    etcd.default.svc.cluster.local
+
+To set a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl put /message Hello
+
+To get a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl get /message
+
+To connect to your etcd server from outside the cluster execute the following commands:
+
+    kubectl port-forward --namespace default svc/etcd 2379:2379 &
+    echo "etcd URL: http://127.0.0.1:2379"
+compacted revision 1
+job.batch/broadcast created
+job.batch "broadcast" deleted
+release "etcd" uninstalled
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: fotb-12
+Error from server (NotFound): pods "etcd-0" not found
+Error from server (NotFound): pods "etcd-0" not found
+job.batch/broadcast created
+job.batch "broadcast" deleted
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: totb-12
+Error from server (NotFound): pods "etcd-0" not found
+Error from server (NotFound): pods "etcd-0" not found
+job.batch/broadcast created
+job.batch "broadcast" deleted
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: htlltb-12
+NAME: etcd
+LAST DEPLOYED: Fri Mar 27 03:05:44 2020
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+** Please be patient while the chart is being deployed **
+
+etcd can be accessed via port 2379 on the following DNS name from within your cluster:
+
+    etcd.default.svc.cluster.local
+
+To set a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl put /message Hello
+
+To get a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl get /message
+
+To connect to your etcd server from outside the cluster execute the following commands:
+
+    kubectl port-forward --namespace default svc/etcd 2379:2379 &
+    echo "etcd URL: http://127.0.0.1:2379"
+compacted revision 1
+job.batch/broadcast created
+job.batch "broadcast" deleted
+release "etcd" uninstalled
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+Warning: Failed to set locale category LC_NUMERIC to en_DE.
+Warning: Failed to set locale category LC_TIME to en_DE.
+Warning: Failed to set locale category LC_COLLATE to en_DE.
+Warning: Failed to set locale category LC_MONETARY to en_DE.
+Warning: Failed to set locale category LC_MESSAGES to en_DE.
+running: htlltbtest-12
+NAME: etcd
+LAST DEPLOYED: Fri Mar 27 03:17:11 2020
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+** Please be patient while the chart is being deployed **
+
+etcd can be accessed via port 2379 on the following DNS name from within your cluster:
+
+    etcd.default.svc.cluster.local
+
+To set a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl put /message Hello
+
+To get a key run the following command:
+
+    export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=etcd,app.kubernetes.io/instance=etcd" -o jsonpath="{.items[0].metadata.name}")
+    kubectl exec -it $POD_NAME -- etcdctl get /message
+
+To connect to your etcd server from outside the cluster execute the following commands:
+
+    kubectl port-forward --namespace default svc/etcd 2379:2379 &
+    echo "etcd URL: http://127.0.0.1:2379"
+compacted revision 1
+job.batch/broadcast created
+Error from server (InternalError): an error on the server ("Internal Server Error: \"/api/v1/namespaces/default/pods?limit=500\": an error on the server (\"unknown\") has prevented the request from succeeding") has prevented the request from succeeding (get pods)
+Error from server (InternalError): error when deleting "./benchmarks/tmp/htlltbtest-12-benchmark-deployment.yaml": an error on the server ("Internal Server Error: \"/apis/batch/v1/namespaces/default/jobs/broadcast\": an error on the server (\"unknown\") has prevented the request from succeeding") has prevented the request from succeeding (delete jobs.batch broadcast)
+Error: uninstall: Release not loaded: etcd: query: failed to query with labels: an error on the server ("Internal Server Error: \"/api/v1/namespaces/default/secrets?labelSelector=name%3Detcd%2Cowner%3Dhelm\": an error on the server (\"unknown\") has prevented the request from succeeding") has prevented the request from succeeding (get secrets)
+statefulset.apps "multichain" deleted
+service "multichain" deleted
+service "multichain-headless" deleted
+release "multichainetcd" uninstalled
+finished run all
