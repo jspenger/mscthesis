@@ -73,7 +73,7 @@ sh etcd/delete-etcd-deployment.sh
 
 ## Download data (either from pods or from GKE)
 ```
-
+gsutil -m cp -n gs://tpbexperiment/* .
 ```
 
 ## Other remarks
