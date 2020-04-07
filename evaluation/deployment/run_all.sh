@@ -29,11 +29,12 @@ do
   cat $SCRIPTPATH/benchmarks/delete-benchmark-deployment.sh.tmpl | envsubst > $SCRIPTPATH/benchmarks/tmp/$DELETEDEPLOYMENTSCRIPT
 
   echo running: $TEST
+  sh $SCRIPTPATH/health_check.sh
   sh $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTSCRIPT
   sleep 420
   sh $SCRIPTPATH/benchmarks/print-logs.sh 2>&1 > $SCRIPTPATH/$TEST.log
   sh $SCRIPTPATH/benchmarks/tmp/$DELETEDEPLOYMENTSCRIPT
-  sleep 30
+  sleep 60
 
   # totb
   TEST=totb-$N_REPLICAS
@@ -48,11 +49,12 @@ do
   cat $SCRIPTPATH/benchmarks/delete-benchmark-deployment.sh.tmpl | envsubst > $SCRIPTPATH/benchmarks/tmp/$DELETEDEPLOYMENTSCRIPT
 
   echo running: $TEST
+  sh $SCRIPTPATH/health_check.sh
   sh $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTSCRIPT
   sleep 420
   sh $SCRIPTPATH/benchmarks/print-logs.sh 2>&1 > $SCRIPTPATH/$TEST.log
   sh $SCRIPTPATH/benchmarks/tmp/$DELETEDEPLOYMENTSCRIPT
-  sleep 30
+  sleep 60
 
   # htlltb
   TEST=htlltb-$N_REPLICAS
@@ -67,13 +69,14 @@ do
   echo running: $TEST
   sh $SCRIPTPATH/etcd/etcd-deployment.sh
   sleep 180
+  sh $SCRIPTPATH/health_check.sh
   sh $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTSCRIPT
   sleep 420
   sh $SCRIPTPATH/benchmarks/print-logs.sh 2>&1 > $SCRIPTPATH/$TEST.log
   sh $SCRIPTPATH/benchmarks/tmp/$DELETEDEPLOYMENTSCRIPT
   sleep 30
   sh $SCRIPTPATH/etcd/delete-etcd-deployment.sh
-  sleep 30
+  sleep 60
 
   # htlltbtest
   TEST=htlltbtest-$N_REPLICAS
@@ -88,13 +91,14 @@ do
   echo running: $TEST
   sh $SCRIPTPATH/etcd/etcd-deployment.sh
   sleep 180
+  sh $SCRIPTPATH/health_check.sh
   sh $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTSCRIPT
   sleep 420
   sh $SCRIPTPATH/benchmarks/print-logs.sh 2>&1 > $SCRIPTPATH/$TEST.log
   sh $SCRIPTPATH/benchmarks/tmp/$DELETEDEPLOYMENTSCRIPT
   sleep 30
   sh $SCRIPTPATH/etcd/delete-etcd-deployment.sh
-  sleep 30
+  sleep 60
 
 done
 
