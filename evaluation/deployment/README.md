@@ -94,17 +94,17 @@ kubectl run podname -i --rm  --tty --image=jonasspenger/tamperproofbroadcast
 
 Execute a command on a running pod (for example on multichain pod):
 ```
-kubectl exec -it multichain-0 -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getinfo'
+kubectl exec multichain-0 -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getinfo'
 ```
 
 ```
-echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec -it multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getlastblockinfo'
+echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getlastblockinfo'
 ```
 
 ```
-echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec -it multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getpeerinfo'
+echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getpeerinfo'
 ```
 
 ```
-echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec -it multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getblockchaininfo'
+echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getblockchaininfo'
 ```
