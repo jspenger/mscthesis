@@ -41,7 +41,12 @@ spec:
           echo running a new blockchain;
           multichaind chain -rpcuser=user -rpcpassword=password -rpcport=7208 -network-port=7209 -rpcallowip=0.0.0.0/0.0.0.0;
           else echo joining an existing blockchain;
-          multichaind chain@$(getent hosts multichain | cut -d' ' -f1):7209 -rpcuser=user -rpcpassword=password -rpcport=7208 -network-port=7209 -rpcallowip=0.0.0.0/0.0.0.0;
+          nslookup multichain-headless;
+          multichaind chain@$(getent hosts multichain-headless | cut -d' ' -f1):7209 -rpcuser=user -rpcpassword=password -rpcport=7208 -network-port=7209 -rpcallowip=0.0.0.0/0.0.0.0;
+          multichaind chain@$(getent hosts multichain-headless | cut -d' ' -f1):7209 -rpcuser=user -rpcpassword=password -rpcport=7208 -network-port=7209 -rpcallowip=0.0.0.0/0.0.0.0;
+          multichaind chain@$(getent hosts multichain-headless | cut -d' ' -f1):7209 -rpcuser=user -rpcpassword=password -rpcport=7208 -network-port=7209 -rpcallowip=0.0.0.0/0.0.0.0;
+          multichaind chain@$(getent hosts multichain-headless | cut -d' ' -f1):7209 -rpcuser=user -rpcpassword=password -rpcport=7208 -network-port=7209 -rpcallowip=0.0.0.0/0.0.0.0;
+          multichaind chain@$(getent hosts multichain-headless | cut -d' ' -f1):7209 -rpcuser=user -rpcpassword=password -rpcport=7208 -network-port=7209 -rpcallowip=0.0.0.0/0.0.0.0;
           fi;
 ---
 apiVersion: v1
