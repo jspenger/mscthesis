@@ -1,5 +1,6 @@
 # check multichain health
 echo check multichain health
+echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec -it multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getinfo'
 echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec -it multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getlastblockinfo'
 echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec -it multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getpeerinfo'
 echo {0..5} | tr " " "\n" | xargs -I{} kubectl exec -it multichain-{} -- bin/ash -c 'multichain-cli chain --rpcuser=user --rpcpassword=password getblockchaininfo'
