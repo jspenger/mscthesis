@@ -29,7 +29,7 @@ do
   cat $SCRIPTPATH/benchmarks/delete-benchmark-deployment.sh.tmpl | envsubst > $SCRIPTPATH/benchmarks/tmp/$DELETEDEPLOYMENTSCRIPT
 
   echo running: $TEST
-  sh $SCRIPTPATH/health_check.sh
+  sh $SCRIPTPATH/multichain/health_check.sh
   sh $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTSCRIPT
   sleep 420
   sh $SCRIPTPATH/benchmarks/print-logs.sh 2>&1 > $SCRIPTPATH/$TEST.log
@@ -49,7 +49,7 @@ do
   cat $SCRIPTPATH/benchmarks/delete-benchmark-deployment.sh.tmpl | envsubst > $SCRIPTPATH/benchmarks/tmp/$DELETEDEPLOYMENTSCRIPT
 
   echo running: $TEST
-  sh $SCRIPTPATH/health_check.sh
+  sh $SCRIPTPATH/multichain/health_check.sh
   sh $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTSCRIPT
   sleep 420
   sh $SCRIPTPATH/benchmarks/print-logs.sh 2>&1 > $SCRIPTPATH/$TEST.log
@@ -69,7 +69,8 @@ do
   echo running: $TEST
   sh $SCRIPTPATH/etcd/etcd-deployment.sh
   sleep 180
-  sh $SCRIPTPATH/health_check.sh
+  sh $SCRIPTPATH/multichain/health_check.sh
+  sh $SCRIPTPATH/etcd/health_check.sh
   sh $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTSCRIPT
   sleep 420
   sh $SCRIPTPATH/benchmarks/print-logs.sh 2>&1 > $SCRIPTPATH/$TEST.log
@@ -91,7 +92,7 @@ do
   echo running: $TEST
   sh $SCRIPTPATH/etcd/etcd-deployment.sh
   sleep 180
-  sh $SCRIPTPATH/health_check.sh
+  sh $SCRIPTPATH/etcd/health_check.sh
   sh $SCRIPTPATH/benchmarks/tmp/$DEPLOYMENTSCRIPT
   sleep 420
   sh $SCRIPTPATH/benchmarks/print-logs.sh 2>&1 > $SCRIPTPATH/$TEST.log
